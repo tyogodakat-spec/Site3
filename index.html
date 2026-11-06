@@ -801,6 +801,8 @@ button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid 
 .trinfo h3{font:700 24px var(--ft);margin:6px 0 2px}
 .trtag{display:inline-block;padding:2px 12px;border-radius:12px;background:#fff;color:#141A33;font-weight:700;font-size:13px}
 .trkind{display:flex;justify-content:space-between;color:var(--gold);font-size:14px;margin-bottom:6px}.trkind b{color:var(--ink)}.trkind .eb{color:#7BE3A6;font-weight:600}
+.fd{line-height:1.55;font-size:14px}.fd p{margin:0 0 7px}.fd h5{margin:10px 0 4px;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--gold)}.fd ul{margin:0 0 8px;padding-left:18px}.fd li{margin:2px 0}.fd .fdt{width:100%;border-collapse:collapse;margin:6px 0 10px;font-size:12.5px}.fd .fdt th,.fd .fdt td{padding:3px 6px;border-bottom:1px solid #ffffff14;text-align:left}.fd .fdt th{color:var(--mut);font-weight:600}.fd .fdt tr.cur td{background:#ffd76a1f;color:var(--gold);font-weight:700}.lgf{display:flex;gap:8px;align-items:flex-end;flex-wrap:wrap;margin:8px 0}.lgf .fld{flex:1 1 220px;margin:0}.lgf .pillb{flex:0 0 auto}
+.dmode{display:inline-flex;gap:2px;margin:6px 0 8px;padding:2px;border-radius:999px;background:#ffffff12}.dmode button{border:0;background:none;color:var(--mut);font:600 12.5px/1 inherit;padding:6px 12px;border-radius:999px;cursor:pointer;min-height:28px}body:not(.det) .dmode [data-dm=s],body.det .dmode [data-dm=d]{background:var(--gold);color:#1a1405}body.det .ds,body:not(.det) .fd{display:none}
 .trd{line-height:1.55;font-size:14.5px}.trd b.up{color:#7BE3A6}.trd b.up s{color:var(--mut);font-weight:400}.trd b.pv{color:var(--gold)}
 .trprev{display:grid;gap:6px;margin:10px 0;padding:10px;border-radius:10px;background:rgba(255,255,255,.04)}
 .trprev div{display:flex;flex-wrap:wrap;gap:6px;align-items:baseline}.trprev span{flex:1 1 100%;color:var(--mut);font-size:12.5px}.trprev b{font-size:17px}.trprev em{font-style:normal;color:#7BE3A6;font-weight:600}
@@ -998,6 +1000,7 @@ button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid 
 <symbol id="g-dungeon-gate" viewBox="0 0 512 512"><path fill="currentColor" d="m193.571 26.027l35.192 83.99c14.877 7.658 33.121 6.696 47.488-1.279l40.283-85.976c-45.582-7.268-84.512-4.945-122.963 3.265m137.3 7.606l-32.038 71.38c12.536 12.349 37.237 18.872 47.033 15.448l31.172-64.691c-12.422-8.392-27.428-15.886-46.168-22.137zm-154.86-1.97c-21.814 6.55-40.982 16.35-56.099 28.591c14.941 15.844 28.861 34.184 38.194 52.832c24.477 6.133 35.479-6.849 47.475-18.55zm-74.245 34.831c-36.541 32.91-66.523 76.42-78.068 125.215l65.957 3.353c12.006-30.53 24.552-56.284 54.231-72.755c-9.883-20.24-23.626-39.403-42.12-55.813m292.503-.29l-31.852 61.044c32.54 21.007 43.572 41.348 52.597 69l72.464-8.43c-9.612-55.894-42.206-107.047-93.209-121.614m-52.233 137.2c4.757 12.937-15.842 29.7-9.07 39.428c-4.011.85-8.874 1.642-14.385-8.957c-1.126 12.49 2.172 19.603 12.168 29.209c-2.682.783-8.045 2.75-12.08.566c-1.24 7.386 10.867 13.863 20.725 14.832l8.392-2.175c-6.09-1.106-7.881-3.315-10.627-6.13c2.97-1.32 12.554-7.117 2.149-14.751c12.634-2.752 6.035-14.89 4.14-21.862c7.525 7.798 15.243 22.54 21.862 7.084c4.176 12.604 6.561 12.12 13.614 9.107c1.054 9.196-2.957 14.791-8.792 22.518l12.494-4.992c6.018-5.026 20.16-25.502 6.428-35.5c2.603 12.443-5.563 14.388-18.672-10.937c-4.377 30.773-12.236-7.49-28.346-17.44m-321.668 2.108v66.242l72.842-11.858l1.592-49.873zm143.486.363c3.732 8.72-14.487 45.226-18.865 14.453c-13.109 25.325-23.908 24.26-21.304 11.817c-13.732 9.998-1.347 33.458 4.671 38.484l11.229 3.001c-5.835-7.727-11.565-13.614-10.512-22.81c7.053 3.013 10.492 5.604 14.668-7c6.618 15.456 17.32-4.378 24.846-12.175c-1.554 11.494-6.282 22.427 7.303 25.197c-9.13 10.082 1.899 19.99-12.694 22.812l8.393 2.176c9.857-.97 20.385-10.606 19.144-17.992c-4.035 2.183-7.818 3.376-10.5 2.594c9.996-9.607 10.662-21.46 9.536-33.95c-5.511 10.6-7.917 11.738-11.752 13.698c6.77-9.728-5.927-32.285-14.163-40.305m327.512 1.172l-77.57 5.687l1.156 79.192l75.524 2.842zM98.313 279.81l-79.955 9.779l1.202 99.754l83.54 1.152zm280.659 7.347l-28.332 7.031l21.455 68.315l16.125-5.043zm-246.961 3.348l-9.248 70.303l16.125 5.043l21.455-68.315zM412.269 310.3v83.58l79.166-8.031l2.289-75.55zm84.605 91.656l-88.934 9.947l-1.16 80.727l90.674.586zm-395.822 2.002l-81.848 2.322l-4.658 86.184h90z"/></symbol>
 <symbol id="g-energy-breath" viewBox="0 0 512 512"><path fill="currentColor" d="m21.094 18.738l2.648 324.412c18.77-2.59 45.98-7.852 64.945-12.642c-64.106-101.55-51.257-197.104 2.327-249.63c53.662-52.602 146.447-59.914 233.177 7.337c4.84-9.857 10.42-22.838 16.794-36.006c5.47-11.3 11.646-22.644 18.895-32.767l-338.786-.705zm474.963 4.528v.004q0-.003.002-.004zm0 .004c-61.196 95.76-153.25 141.768-246.823 130.314l.018-.09c-44.04-8.138-80.08-48.272-88.258-90.97l-5.1.978a129 129 0 0 0-12.804 4.674c5.02 23.956 17.053 46.75 34.045 64.994c-23.395-10.524-46.4-24.868-68.545-43.14q-2.297 2.043-4.494 4.195c-10.57 10.36-19.463 22.714-26.19 36.744c78.998 89.616 102.237 198.926 67.586 288.587h.024a19.04 19.04 0 0 1 18.494 19.04a19.04 19.04 0 0 1-33.54 12.434c-8.678 15.057-19.207 29.335-31.603 42.613h87.746c39.76-99.513 23.982-199.025-19.246-298.538c67.318 99.592 90.826 196.925 82.403 298.538h40.86c6.338-49.1-1.414-99.91-17.83-151.262c27.98 51.95 42.662 101.905 46.167 151.263h80.418c-7.116-82.67-59.353-161.448-136.016-238.282c51.847 37.27 99.116 74.24 137.67 113.58a28.06 28.06 0 0 1 26.353-16.5a28.06 28.06 0 0 1 27.253 28.064a28.06 28.06 0 0 1-19.53 26.857c21.467 27.107 38.57 55.61 50.107 86.283h10.834v-251.73c-90.946 14.794-178.154.85-267.36-51.786c28.81 10.04 57.617 17.515 86.426 21.637a15 15 0 0 1-.81-4.73a15.033 15.033 0 0 1 15.472-15.026a15.033 15.033 0 0 1 14.594 15.027a15.03 15.03 0 0 1-2.124 7.608c51.267 3.417 102.534-4.68 153.8-28.997V132.79a493 493 0 0 1-42.56 19.394a19.04 19.04 0 0 1-32.117 11.59c-23.378 7.59-48.116 13.84-74.41 18.585c23.985-9.113 46.94-19.303 68.655-30.768a19 19 0 0 1-.072-1.617a19.04 19.04 0 0 1 19.588-19.04a19.04 19.04 0 0 1 10.442 3.51c17.903-11.117 34.778-23.286 50.475-36.648V23.27zM195.8 57.664a141 141 0 0 0-16.036.904l95.56 65.895l18.936-34.887c-34.17-22.12-67.845-31.884-98.46-31.912M63.72 196.322c.062 32.42 9.328 68.888 30.667 107.545l22.33-13.244l-52.996-94.3zm329.33 88.944a19.04 19.04 0 0 1 18.493 19.043a19.04 19.04 0 1 1-38.082 0a19.04 19.04 0 0 1 19.59-19.044z"/></symbol>
 <symbol id="g-entry-door" viewBox="0 0 512 512"><path fill="currentColor" d="M217 28.098v455.804l142-42.597V70.697zM119 55v160h18V73h62V55zm257.98.03l.02 2.275V87h16V55zM377 105v16h16v-16zm0 34v236h16V139zm-276.564 58.727L42.162 256l58.274 58.273V279h96v-46h-96zM244 232c6.627 0 12 10.745 12 24s-5.373 24-12 24s-12-10.745-12-24s5.373-24 12-24m-125 65v151h18V297zm258 96v14h16v-14zm0 32v23h16v-23zM32 471v18h167v-18zm290.652 0l-60 18H480v-18z"/></symbol>
+<symbol id="g-envelope" viewBox="0 0 512 512"><path fill="currentColor" d="M182.78 80.125c3.367 19.498 10.608 52.67 19.126 84.813c8.126 30.663 17.73 60.122 25.063 75.062c57.968-.962 148.212-16.707 252.343-46.344c-91.756-70.023-188.486-99.376-296.532-113.53zM164.657 85c-65.62 51.243-106.43 120.106-138.5 196.25c54.866-38.51 111.644-60.42 169.313-70.906c-3.995-12.636-7.88-26.486-11.626-40.625c-8.425-31.79-15.554-64.12-19.188-84.72zm322.281 125.906c-74.123 21.218-141.43 35.68-196.25 42.813c24.018 51.794 36.448 106.688 43.688 160.936c70.634-58.76 125.36-118.495 152.563-203.75zM201.53 228.28c-56.563 9.917-111.78 30.946-165.56 68.907c89.478 61.396 189.91 97.037 279.874 119.844c-7.362-55.057-20.104-109.997-44.75-161.03c-18.39 1.897-35.134 2.875-49.938 2.875h-5.344l-2.718-4.625c-3.898-6.69-7.77-15.598-11.563-25.97z"/></symbol>
 <symbol id="g-evil-moon" viewBox="0 0 512 512"><path fill="currentColor" d="M255.938 19.938C124.514 19.938 17.78 126.67 17.78 258.094c0 131.422 106.735 238.156 238.157 238.156s238.157-106.734 238.157-238.156S387.36 19.938 255.938 19.938m0 18.687c121.322 0 219.468 98.147 219.468 219.47c0 26.08-4.548 51.085-12.875 74.28c-20.99 8.188-43.686 12.75-67.624 12.75c-22.242 0-43.584-3.855-63.406-10.938l12.094 44.594l-71.75-12.467l18.844 51.562c-57.855 7.1-108.19-15.432-130.47-49.28l81.313 1.78l-23.56-48.438l72.436-8.062l.688.063c-16.83-11.135-31.777-24.876-44.22-40.688c30.674-18.014 66.44-28.814 102.782-22.844c-43.234-49.45-95.713-64.09-139.437-57.437a188 188 0 0 1-3.345-35.314c0-45.286 16.2-86.562 42.938-118.937c2.04-.057 4.072-.095 6.125-.095zM139.188 180.78c.638-.006 1.268-.013 1.906 0c19.467.437 38.24 10.748 48.687 28.845c15.923 27.577 6.48 62.83-21.093 78.75c-27.572 15.92-62.828 6.483-78.75-21.094c-15.92-27.576-6.478-62.86 21.094-78.78a57.43 57.43 0 0 1 28.157-7.72zm-.063 21.064c-20.26 0-36.906 16.643-36.906 36.906s16.644 36.875 36.905 36.875c20.26 0 36.875-16.612 36.875-36.875s-16.614-36.906-36.875-36.906zm0 18.687c10.16 0 18.188 8.058 18.188 18.22s-8.028 18.188-18.188 18.188s-18.22-8.026-18.22-18.188s8.06-18.22 18.22-18.22"/></symbol>
 <symbol id="g-exit-door" viewBox="0 0 512 512"><path fill="currentColor" d="M217 28.098v455.804l142-42.597V70.697zm159.938 26.88l.062 2.327V87h16V55zM119 55v117.27h18V73h62V55zm258 50v16h16v-16zm0 34v236h16V139zm-240 58.727V233H41v46h96v35.273L195.273 256zM244 232c6.627 0 12 10.745 12 24s-5.373 24-12 24s-12-10.745-12-24s5.373-24 12-24M137 339.73h-18V448h18zM377 393v14h16v-14zm0 32v23h16v-23zM32 471v18h167v-18zm290.652 0l-60 18H480v-18z"/></symbol>
 <symbol id="g-eye-target" viewBox="0 0 512 512"><path fill="currentColor" d="M256 105c-60.25 0-124.749 38.39-167.945 77.66c-34.931 31.756-58.722 62.36-66.88 73.34c8.158 10.98 31.949 41.584 66.88 73.34C131.25 368.61 195.75 407 256 407s124.749-38.39 167.945-77.66c34.931-31.756 58.722-62.36 66.88-73.34c-8.158-10.98-31.949-41.584-66.88-73.34C380.75 143.39 316.25 105 256 105m0 23a128 128 0 0 1 63.486 16.969A48 48 0 0 0 288 190l.023.453A72.4 72.4 0 0 0 265 183.576V160h-18v23.576c-33.034 4.095-59.33 30.39-63.424 63.424H160v18h23.576c4.095 33.034 30.39 59.33 63.424 63.424V352h18v-23.576c33.034-4.095 59.33-30.39 63.424-63.424H352v-18h-23.576a72 72 0 0 0-1.98-10.014A48 48 0 0 0 336 238a48 48 0 0 0 41.023-23.195A128 128 0 0 1 384 256a128 128 0 0 1-128 128a128 128 0 0 1-128-128a128 128 0 0 1 128-128m-9 73.738V224h18v-22.262c23.237 3.792 41.47 22.025 45.262 45.262H288v18h22.262c-3.792 23.237-22.025 41.47-45.262 45.262V288h-18v22.262c-23.237-3.792-41.47-22.025-45.262-45.262H224v-18h-22.262c3.792-23.237 22.025-41.47 45.262-45.262"/></symbol>
@@ -1583,7 +1586,7 @@ const SAVE_V = 5;
 function newState() {
   return {
     v: SAVE_V, ts: 0, uid: 1,
-    ast: 4600, pE: 10, pC: 40, cr: 250000, dust: 0, glit: 0, insFC: {}, shopM: { m: "", b: {} },
+    ast: 3200, pE: 10, pC: 40, elK: 0, cr: 250000, dust: 0, glit: 0, insFC: {}, shopM: { m: "", b: {} },
     mats: { cx2: 20, cx1: 30, wx2: 20, wx1: 30 },
     st: { v: 240, at: Date.now() }, rd: { d: dayKey(), n: 0 },
     tower: 0, chars: {}, wpns: [], rels: [],
@@ -1623,9 +1626,9 @@ const have = (S, id) => CUR[id] ? (S[id] || 0) : (S.mats[id] || 0);
 const BANNERS = {
   /* regras do HSR: 5★ base, início da "pity suave" (s5) e quanto sobe por tiro (i5), garantia (h5); 4★ base e garantia a cada 10;
      50/50 (f5 = 0,5) no de personagem e 75/25 no de Cone, com garantia depois de perder; contadores por tipo de banner */
-  evtC: { nm: "Evento de Personagem", tag: "Evento de Personagem", kind: "char", pass: "pE", b5: 0.006, s5: 74, i5: 0.06, h5: 90, b4: 0.051, f5: 0.5, f4: 0.5, col: "#4FB59A" },
+  evtC: { nm: "Evento de Personagem", tag: "Evento de Personagem", kind: "char", pass: "pE", b5: 0.006, s5: 70, i5: 0.05, h5: 90, b4: 0.051, f5: 0.5, f4: 0.5, col: "#4FB59A" },
   evtW: { nm: "Evento de Cone de Luz", tag: "Evento de Cone de Luz", kind: "wpn", pass: "pE", b5: 0.008, s5: 66, i5: 0.07, h5: 80, b4: 0.066, f5: 0.75, f4: 0.75, col: "#D58D45" },
-  std:  { nm: "Banner do Mochileiro", tag: "Salto Permanente", kind: "std", pass: "pC", b5: 0.006, s5: 74, i5: 0.06, h5: 90, b4: 0.051, col: "#5E8FD6", sel: 300 }
+  std:  { nm: "Banner do Mochileiro", tag: "Salto Permanente", kind: "std", pass: "pC", b5: 0.006, s5: 70, i5: 0.05, h5: 90, b4: 0.051, col: "#5E8FD6", sel: 300 }
 };
 const PULL_COST = 160;
 function chance5(b, c) { if (c >= b.h5) return 1; if (c >= b.s5) return Math.min(1, b.b5 + (c - b.s5 + 1) * (b.i5 || b.b5 * 10)); return b.b5; }
@@ -1867,11 +1870,21 @@ function floorReward(f, plan) {
   const kind = TOWER_BOSS[f] ? "boss" : f === 10 || f === 20 ? "mini" : plan && plan.waves.flat().some(s => s.role === "elite") ? "elite" : "comum";
   const o = { ast: { boss: 300, mini: 150, elite: 50, comum: 25 }[kind], cr };
   if (kind === "boss" || kind === "mini") o.pE = 1;
+  if (kind === "boss") o.pC = 10; /* cada chefe da Torre: 10 tiros do Mochileiro */
   const ins = f < 40 ? "in1" : f < 90 ? "in2" : "in3";
   o[ins] = kind === "comum" ? 1 : 2;
   if (kind === "boss") { o.bmem = 2; o.dest = 1; }
   if (kind === "mini") o.bmem = 1;
   return o;
+}
+/* a cada 10 elites derrotados (1ª vitória do andar na Torre): +2 Passes Comuns; o resto fica guardado em S.elK */
+const ELITE_EVERY = 10, ELITE_PC = 2;
+const elitesIn = plan => plan ? plan.waves.flat().filter(s => s.role === "elite").length : 0;
+function eliteBonus(S, plan) {
+  S.elK = (S.elK || 0) + elitesIn(plan);
+  const n = Math.floor(S.elK / ELITE_EVERY);
+  S.elK -= n * ELITE_EVERY;
+  return n * ELITE_PC;
 }
 /* nível recomendado: nos andares de chefe/mini-chefe, pelo menos 1 personagem da equipe precisa ter esse nível */
 const REC_LV = { 10: 20, 20: 30, 30: 38, 40: 45, 50: 50, 60: 55, 70: 62, 80: 68, 90: 72, 100: 76, 110: 78, 120: 80, 130: 80 };
@@ -3346,6 +3359,1368 @@ const FOE_AI = {
 };
 
 /* =====================================================================
+   ASTRALIS · DESCRIÇÕES COMPLETAS DOS PERSONAGENS (como nos documentos)
+   Texto mostrado no jogo para Ataque Básico (b), Perícia (s), Suprema (u),
+   Talento (t), Rastros Maiores (a2/a4/a6) e Eidolons (e[0..5]).
+   Formato: "### " título · "- " item · "| a | b |" tabela · linha vazia = parágrafo.
+   Valores que mudam com o nível também aparecem na prévia "Nv. atual → próximo".
+   ===================================================================== */
+const FULL = {
+  rukia: {
+    b: `Rukia desfere um golpe com sua zanpakutō contra um inimigo.
+
+Tipo: Ataque Básico
+Alvo: Um inimigo
+Dano: Gelo, baseado no ATQ de Rukia.
+
+| Nível | Multiplicador |
+| Nv. 1 | 50% |
+| Nv. 2 | 60% |
+| Nv. 3 | 70% |
+| Nv. 4 | 80% |
+| Nv. 5 | 90% |
+| Nv. 6 | 100% |
+| Nv. 7 (E3) | 110% |
+
+O Ataque Básico não aplica Lentidão nem Congelamento por conta própria.`,
+    s: `Tipo: Perícia
+Alvo: Todos os inimigos
+Dano: Gelo, baseado no ATQ de Rukia.
+
+### Efeito
+- Causa Dano de Gelo a todos os inimigos.
+- Possui 100% de chance-base de aplicar Lentidão por 2 turnos.
+- Lentidão reduz a VEL do alvo em 10%.
+- Também atrasa a ação do inimigo em 10%.
+
+| Nível | Multiplicador de dano |
+| Nv. 1 | 80% |
+| Nv. 2 | 88% |
+| Nv. 3 | 96% |
+| Nv. 4 | 104% |
+| Nv. 5 | 112% |
+| Nv. 6 | 120% |
+| Nv. 7 | 130% |
+| Nv. 8 | 140% |
+| Nv. 9 | 150% |
+| Nv. 10 | 160% |
+
+A chance-base de aplicação é 100%. A Taxa de Acerto de Efeito de Rukia e a RES a Efeito do inimigo são consideradas, sem substituir a chance-base.`,
+    u: `Tipo: Suprema
+Alvo: Todos os inimigos
+Dano: Gelo, baseado no ATQ de Rukia.
+Custo de Energia: 120.
+
+### Efeito
+- Causa Dano de Gelo a todos os inimigos.
+- Possui 100% de chance-base de aplicar Congelamento por 1 turno.
+- Enquanto estiver Congelado, o inimigo não pode realizar sua ação.
+- Quando o Congelamento termina, a ação do inimigo é atrasada em 20%.
+
+| Nível | Multiplicador de dano |
+| Nv. 1 | 120% |
+| Nv. 2 | 132% |
+| Nv. 3 | 144% |
+| Nv. 4 | 156% |
+| Nv. 5 | 168% |
+| Nv. 6 | 180% |
+| Nv. 7 | 195% |
+| Nv. 8 | 210% |
+| Nv. 9 | 225% |
+| Nv. 10 | 240% |
+
+O Congelamento é um efeito negativo com origem identificável: Suprema de Rukia. O atraso de ação ao terminar o Congelamento acontece uma única vez para cada aplicação.`,
+    t: `Tipo: Talento passivo
+
+Quando um inimigo afetado por Lentidão ou Congelamento aplicados por Rukia é derrotado, Rukia recupera Energia.
+
+| Nível | Energia |
+| Nv. 1 | 2 |
+| Nv. 2 | 2 |
+| Nv. 3 | 2 |
+| Nv. 4 | 3 |
+| Nv. 5 | 3 |
+| Nv. 6 | 3 |
+| Nv. 7 | 4 |
+| Nv. 8 | 4 |
+| Nv. 9 | 4 |
+| Nv. 10 | 5 |
+
+### Regras de ativação
+- A Lentidão deve ter sido aplicada pela Perícia de Rukia.
+- O Congelamento deve ter sido aplicado pela Suprema de Rukia.
+- O inimigo precisa estar efetivamente afetado por um desses estados no momento da derrota.
+- O inimigo pode ser derrotado por qualquer aliado, inclusive pela própria Rukia.
+- Se vários inimigos forem derrotados simultaneamente, o Talento recupera Energia somente uma vez.
+- Se vários inimigos forem derrotados em momentos diferentes durante o mesmo turno de Rukia, o Talento continua limitado a uma ativação.
+- O limite é reiniciado quando começa o próximo turno de Rukia.
+- Efeitos negativos aplicados por outros personagens não ativam este Talento.
+- A recuperação não pode ativar o próprio Talento.
+- A recuperação acontece imediatamente após a confirmação da derrota do inimigo.
+
+O Talento é uma habilidade passiva e automática. Não consome Pontos de Habilidade e não é ativado manualmente.`,
+    a2: `Quando um aliado ataca um inimigo cuja VEL foi reduzida pela Perícia de Rukia, atrasa a ação desse inimigo em 4%.
+
+Limite: uma vez por inimigo por turno.
+
+O efeito reconhece especificamente a Lentidão aplicada pela Perícia de Rukia.`,
+    a4: `Quando Rukia atinge um inimigo afetado por Lentidão ou Congelamento, aumenta o Dano de Gelo recebido pelo alvo em 10% por 2 turnos.
+
+O efeito não acumula consigo mesmo. Uma nova aplicação apenas renova a duração.`,
+    a6: `- Quando Rukia atinge inimigos Congelados, aumenta seu próprio Dano de Gelo em 20% por 2 turnos.
+- Ao causar Dano de Gelo a inimigos Congelados, causa dano adicional de Gelo equivalente a 30% do ATQ de Rukia.
+- O dano adicional de A6 pode ocorrer uma vez por turno de Rukia.`,
+    e: [
+      `Após Rukia usar sua Perícia ou Suprema, causa dano adicional de Gelo equivalente a 30% do ATQ a cada inimigo atingido que esteja afetado por Lentidão ou Congelamento.
+
+Limite: uma vez por inimigo por uso da habilidade.`,
+      `Quando um inimigo Congelado recebe Dano de Gelo de Rukia, causa uma instância adicional de Dano de Gelo equivalente a 40% do ATQ.
+
+Limite: até 2 vezes por inimigo por turno de Rukia.`,
+      `Aumenta o nível da Perícia em 2 e o nível do Ataque Básico em 1.`,
+      `Ao usar a Suprema, reduz a RES a Gelo dos inimigos atingidos em 12% por 2 turnos.
+
+Enquanto existir pelo menos um inimigo Congelado, Rukia recebe +15% de Dano de Gelo. O bônus de Dano de Gelo é removido quando não houver mais inimigos Congelados.`,
+      `Aumenta o nível da Suprema em 2 e o nível da Perícia em 2. Os níveis podem chegar até Nv. 15.`,
+      `- Quando Rukia atinge um inimigo Congelado com sua Suprema, prolonga o Congelamento em 1 turno adicional.
+- Pode prolongar uma vez por inimigo por uso da Suprema. Não permite extensão infinita.
+- Enquanto houver pelo menos um inimigo Congelado, Rukia recebe +20% de VEL e 15% de PEN de RES a Gelo.
+- Os bônus de VEL e PEN de RES a Gelo são removidos quando não houver inimigos Congelados.
+
+A redução de RES a Gelo do E4 e a PEN de RES a Gelo do E6 são atributos diferentes e não se confundem.`
+    ]
+  },
+  sakura: {
+    b: `Sakura concentra chakra no punho e desfere um golpe poderoso contra um único inimigo.
+
+### Efeito
+- Causa Dano Físico equivalente a 50% do ATQ de Sakura.
+
+| Nível | Dano |
+| Nv. 1 | 50% |
+| Nv. 2 | 60% |
+| Nv. 3 | 70% |
+| Nv. 4 | 80% |
+| Nv. 5 | 90% |
+| Nv. 6 | 100% |
+| Nv. 7 | 110% |
+
+O nível 7 somente pode ser alcançado através do E3.`,
+    s: `Sakura utiliza seu conhecimento avançado de ninjutsu médico para tratar um aliado.
+
+### Efeito
+- Seleciona um aliado e restaura HP equivalente a uma porcentagem do HP máximo de Sakura + uma quantidade fixa.
+- Remove 1 efeito negativo removível do aliado.
+- Se o aliado estiver com menos de 50% de HP antes da cura, aumenta a cura recebida por esta Perícia em 20%.
+
+| Nível | HP máximo de Sakura | Cura fixa |
+| Nv. 1 | 12% | 200 |
+| Nv. 2 | 13% | 220 |
+| Nv. 3 | 14% | 240 |
+| Nv. 4 | 15% | 260 |
+| Nv. 5 | 16% | 280 |
+| Nv. 6 | 17% | 300 |
+| Nv. 7 | 18% | 320 |
+| Nv. 8 | 19% | 340 |
+| Nv. 9 | 20% | 360 |
+| Nv. 10 | 22% | 400 |
+| Nv. 11 | 23% | 420 |
+| Nv. 12 | 24% | 440 |
+| Nv. 13 | 25% | 460 |
+| Nv. 14 | 26% | 480 |
+| Nv. 15 | 27% | 500 |
+
+Os níveis acima do Nv. 10 são utilizados somente quando os Eidolons aumentarem o nível da Perícia.
+
+### Regras de funcionamento
+- Os 50% de HP são verificados antes de calcular a cura.
+- O bônus de 20% multiplica o resultado da cura principal.
+- Remove somente um efeito negativo removível.
+- Não remove buffs positivos.
+- Respeita o HP máximo do aliado.
+- Utiliza sempre o HP máximo atualizado de Sakura.`,
+    u: `Sakura libera o selo da Força de uma Centena, acumulando e liberando uma quantidade extraordinária de chakra. Ela golpeia todos os inimigos e utiliza o chakra armazenado para recuperar os aliados.
+
+Custo de Energia: 120.
+
+### Efeito principal
+- Causa Dano Físico a todos os inimigos.
+- Restaura HP de todos os aliados.
+- Ativa o estado Força de uma Centena por 2 turnos.
+
+| Nível | Dano em todos os inimigos | Cura: HP máx. de Sakura | Cura fixa |
+| Nv. 1 | 100% | 10% | 160 |
+| Nv. 2 | 110% | 11% | 176 |
+| Nv. 3 | 120% | 12% | 192 |
+| Nv. 4 | 130% | 13% | 208 |
+| Nv. 5 | 140% | 14% | 224 |
+| Nv. 6 | 150% | 15% | 240 |
+| Nv. 7 | 162% | 16,5% | 264 |
+| Nv. 8 | 174% | 18% | 288 |
+| Nv. 9 | 186% | 19% | 304 |
+| Nv. 10 | 200% | 20% | 320 |
+| Nv. 11 | 210% | 21% | 336 |
+| Nv. 12 | 220% | 22% | 352 |
+
+### Estado: Força de uma Centena
+- No início do turno de cada aliado, restaura HP equivalente a 3% do HP máximo atual de Sakura.
+- O estado dura 2 turnos.
+- A regeneração acontece automaticamente no início do turno de cada aliado.
+- A regeneração não cria instâncias duplicadas.
+- Uma nova utilização da Suprema renova a duração para 2 turnos, sem acumular outra instância do efeito.`,
+    t: `Tipo: Talento Passivo · Nível inicial: Nv. 1 · Nível máximo: Nv. 10.
+
+Sakura possui reflexos médicos excepcionais e consegue identificar rapidamente quando um aliado está em perigo.
+
+### Efeito
+Quando um aliado recebe um ataque inimigo, sobrevive ao dano e permanece com menos de 50% de HP, Sakura restaura imediatamente HP equivalente a uma porcentagem do seu HP máximo + uma quantidade fixa.
+
+Limite: uma ativação por aliado a cada 2 turnos de Sakura.
+
+### Condição especial
+- O Talento funciona normalmente enquanto Sakura não estiver com o estado Força de uma Centena ativo.
+- Enquanto Força de uma Centena estiver ativo, o Talento não ativa.
+- Durante esse estado, o A6 já é responsável pela recuperação emergencial.
+- O Talento não pode impedir derrotas.
+- Não ativa por dano causado por aliados.
+- Não ativa quando o HP do aliado continua igual ou acima de 50%.
+- Não ativa quando o aliado é derrotado pelo ataque.
+
+| Nível | HP máximo de Sakura | Cura fixa |
+| Nv. 1 | 2% | 40 |
+| Nv. 2 | 2,3% | 48 |
+| Nv. 3 | 2,6% | 56 |
+| Nv. 4 | 2,9% | 64 |
+| Nv. 5 | 3,2% | 72 |
+| Nv. 6 | 3,5% | 80 |
+| Nv. 7 | 3,8% | 88 |
+| Nv. 8 | 4,1% | 96 |
+| Nv. 9 | 4,5% | 108 |
+| Nv. 10 | 5% | 120 |
+
+### Controle de ativação
+- Quando o Talento ativa para um aliado, uma nova ativação para aquele mesmo aliado fica bloqueada até Sakura completar 2 turnos próprios.
+- Os outros aliados continuam podendo ativar o Talento normalmente.
+- Ataques múltiplos durante o período de bloqueio não geram novas curas.
+
+### Interação com A4
+A cura do Talento pode ativar o A4, caso todas as condições sejam atendidas e o limite do A4 ainda não tenha sido utilizado para aquele aliado no turno atual de Sakura. A cura adicional do A4 não pode ativar novamente o A4.`,
+    a2: `Quando Sakura utiliza sua Perícia em um aliado:
+- O aliado recebe 15% de RES a Efeito por 2 turnos.
+
+Além disso, se o aliado continuar abaixo de 50% de HP depois da cura principal:
+- Recebe 10% de redução de dano por 1 turno.
+
+### Regras
+- Não acumula cópias do mesmo bônus.
+- Reaplicar renova a duração.`,
+    a4: `Quando um aliado recebe uma cura de Sakura, caso estivesse com menos de 50% de HP antes da cura:
+- Recupera HP adicional equivalente a 5% do HP máximo atual de Sakura.
+
+Limite: uma ativação por aliado a cada turno de Sakura.
+
+### Regras
+- O HP é verificado antes da cura que ativou o efeito.
+- O limite é independente para cada aliado.
+- A cura adicional não pode ativar novamente o próprio A4.
+- A cura periódica da Suprema também pode ativar o efeito, respeitando o limite estabelecido.`,
+    a6: `Enquanto Força de uma Centena estiver ativo:
+- Aumenta a cura realizada por Sakura em 20%.
+- Quando um aliado recebe um ataque e sobrevive com menos de 30% de HP, Sakura restaura imediatamente HP equivalente a 8% do seu HP máximo.
+
+Limite: uma ativação por aliado durante cada utilização da Suprema.
+
+### Regras
+- O aumento de cura afeta todas as curas realizadas por Sakura durante o estado.
+- A cura emergencial acontece depois da confirmação do dano.
+- O aliado precisa sobreviver ao ataque.
+- O limite é individual por aliado.
+- Uma nova Suprema reinicia as marcações de ativação do A6.
+- A cura emergencial não pode ativar a si própria.
+- Este efeito não é prevenção de derrota (a prevenção de derrota pertence ao E6).`,
+    e: [
+      `Quando Sakura utiliza sua Perícia em um aliado que estava com menos de 50% de HP antes da cura:
+- O aliado recebe aumento de 12% do HP máximo por 2 turnos.
+- Sakura recupera 5 de Energia.
+
+### Regras
+- A condição de HP é verificada antes da cura.
+- A recuperação de Energia acontece uma vez por utilização da Perícia.
+- O bônus de HP máximo é temporário.
+- Não ultrapassa o limite de Energia de Sakura.`,
+      `Quando Sakura cura um aliado:
+- Concede um escudo equivalente a 8% do HP máximo atual de Sakura + 100.
+- Duração de 2 turnos.
+- Uma ativação por aliado a cada turno de Sakura.
+
+### Regras
+- Não permite acúmulos infinitos do mesmo efeito.
+- Reaplicar atualiza a duração e a absorção.
+- Respeita o limite de ativação.`,
+      `- Nível da Perícia +2.
+- Nível do Ataque Básico +1.`,
+      `Quando Sakura utiliza sua Suprema:
+- Todos os aliados recebem 15% de RES a Efeito por 2 turnos.
+- Enquanto Força de uma Centena estiver ativo, Sakura recebe 15% de VEL.
+
+### Regras
+- O bônus de VEL termina quando Força de uma Centena termina.
+- A RES a Efeito possui duração própria de 2 turnos.
+- Não acumula várias instâncias do mesmo bônus.`,
+      `- Nível da Suprema +2.
+- Nível da Perícia +2.`,
+      `### Primeiro efeito
+Quando Sakura utiliza sua Suprema:
+- Todos os aliados recebem uma cura adicional equivalente a 10% do HP máximo atual de Sakura.
+
+Essa cura é adicional à cura principal da Suprema.
+
+### Segundo efeito
+Enquanto Força de uma Centena estiver ativo:
+- A regeneração de HP no início do turno dos aliados aumenta de 3% para 5% do HP máximo atual de Sakura.
+
+O valor de 5% substitui o valor de 3%. Os dois não se somam.
+
+### Terceiro efeito — Prevenção de Derrota
+Quando um aliado recebe um ataque que normalmente o derrotaria:
+- Sakura impede a derrota.
+- O aliado permanece com 1 HP temporariamente.
+- Em seguida, recupera HP equivalente a 20% do HP máximo atual de Sakura.
+
+Limite: uma ativação por aliado durante cada batalha.
+
+### Regras
+- Cada aliado possui sua própria ativação.
+- Depois de utilizado, o efeito não pode ativar novamente para o mesmo aliado naquela batalha.
+- Vários aliados podem ser protegidos simultaneamente, caso ainda possuam suas ativações.
+- Os limites reiniciam quando uma nova batalha começa.
+- Não remove efeitos negativos automaticamente.
+- Mecanismos especiais de derrota que ignoram prevenção de morte continuam valendo.`
+    ]
+  },
+  nobara: {
+    b: `Nobara lança um prego revestido de energia amaldiçoada contra um inimigo, causando Dano Físico.
+
+### Efeito
+- Causa Dano Físico equivalente a 50% do ATQ de Nobara a um único inimigo.
+
+| Nível | Multiplicador de ATQ |
+| Nv. 1 | 50% |
+| Nv. 2 | 60% |
+| Nv. 3 | 70% |
+| Nv. 4 | 80% |
+| Nv. 5 | 90% |
+| Nv. 6 | 100% |`,
+    s: `Nobara dispara diversos pregos contra os inimigos. Depois de cravá-los nos alvos, libera a energia amaldiçoada acumulada, provocando explosões.
+
+### Efeito
+- Causa Dano Físico equivalente a 80% do ATQ de Nobara ao inimigo principal.
+- Causa Dano Físico equivalente a 40% do ATQ de Nobara aos inimigos adjacentes.
+- Possui 100% de chance-base de aplicar Sangramento dos Pregos ao inimigo principal.
+- Possui 80% de chance-base de aplicar Sangramento dos Pregos aos inimigos adjacentes.
+- O Sangramento dos Pregos possui duração de 2 turnos inimigos.
+
+| Nível | Alvo principal | Inimigos adjacentes |
+| Nv. 1 | 80% | 40% |
+| Nv. 2 | 88% | 44% |
+| Nv. 3 | 96% | 48% |
+| Nv. 4 | 104% | 52% |
+| Nv. 5 | 112% | 56% |
+| Nv. 6 | 120% | 60% |
+| Nv. 7 | 130% | 65% |
+| Nv. 8 | 140% | 70% |
+| Nv. 9 | 150% | 75% |
+| Nv. 10 | 160% | 80% |
+
+### Efeito negativo — Sangramento dos Pregos
+O inimigo recebe Dano Físico contínuo no início de cada um dos seus turnos.
+- Cada aplicação concede 1 acúmulo.
+- O limite máximo é de 2 acúmulos por inimigo.
+- Ao aplicar novamente, adiciona um acúmulo e renova a duração dos acúmulos existentes para 2 turnos.
+- Cada acúmulo causa dano individualmente.
+- O dano é calculado com base no HP máximo do inimigo, respeitando um limite baseado no ATQ de Nobara.
+- O efeito é identificado como aplicado por Nobara.
+
+| Nível | HP máximo do inimigo | Limite baseado no ATQ de Nobara |
+| Nv. 1 | 4% | 50% |
+| Nv. 2 | 4,4% | 55% |
+| Nv. 3 | 4,8% | 60% |
+| Nv. 4 | 5,2% | 65% |
+| Nv. 5 | 5,6% | 70% |
+| Nv. 6 | 6% | 75% |
+| Nv. 7 | 6,5% | 80% |
+| Nv. 8 | 7% | 85% |
+| Nv. 9 | 7,5% | 90% |
+| Nv. 10 | 8% | 100% |
+
+### Fórmula do Sangramento
+Dano de cada acúmulo = menor valor entre:
+- HP máximo do inimigo × porcentagem de Sangramento.
+- ATQ de Nobara × limite de ATQ correspondente.
+
+Se o inimigo possuir dois acúmulos, o dano de cada um é calculado e os resultados são somados. O limite baseado no ATQ é aplicado a cada acúmulo individualmente, e não somente depois da soma.
+
+Exemplo no Nv. 10: HP máximo do inimigo 100.000 e ATQ de Nobara 2.000. Dano percentual: 8.000. Limite por acúmulo: 2.000. Dano final por acúmulo: 2.000. Com dois acúmulos: 4.000 de DoT no início do turno inimigo.
+
+A chance-base de aplicação usa a Taxa de Acerto de Efeito e a RES a Efeito. 100% de chance-base não é uma aplicação garantida contra resistências.`,
+    u: `Nobara utiliza sua boneca de palha e sua energia amaldiçoada para estabelecer uma conexão com os inimigos. Ao cravar um prego na boneca, transfere a energia diretamente para os alvos conectados, provocando uma explosão de dano.
+
+Custo de Energia: 120.
+
+### Efeito
+- Causa Dano Físico equivalente a 120% do ATQ de Nobara a todos os inimigos.
+- Depois de causar o dano direto, identifica os inimigos afetados pelo Sangramento dos Pregos aplicado pela própria Nobara.
+- Cada inimigo afetado recebe uma instância adicional de dano equivalente a 50% do dano total que seus acúmulos de Sangramento causariam no próximo intervalo normal.
+
+| Nível | Dano em todos os inimigos | Porcentagem antecipada |
+| Nv. 1 | 120% | 50% |
+| Nv. 2 | 132% | 52% |
+| Nv. 3 | 144% | 54% |
+| Nv. 4 | 156% | 56% |
+| Nv. 5 | 168% | 58% |
+| Nv. 6 | 180% | 60% |
+| Nv. 7 | 195% | 63% |
+| Nv. 8 | 210% | 66% |
+| Nv. 9 | 225% | 68% |
+| Nv. 10 | 240% | 70% |
+
+### Regras da Ressonância
+- A detonação afeta exclusivamente o Sangramento dos Pregos aplicado pela própria Nobara.
+- Cada inimigo pode receber apenas uma detonação por utilização da Suprema.
+- Caso o inimigo possua dois acúmulos, considera o dano total dos dois.
+- A porcentagem de detonação é aplicada sobre o dano total que os acúmulos causariam no próximo intervalo normal.
+- A detonação não consome os acúmulos.
+- A duração do Sangramento não é reduzida.
+- A detonação não aplica novos acúmulos.
+- Não detona DoTs aplicados por outros personagens.
+- A detonação não ativa outras detonações em cadeia.
+- Inimigos sem Sangramento recebem somente o dano direto da Suprema.
+- A detonação é registrada como dano adicional da Suprema de Nobara, e não como um novo DoT.
+- A detonação respeita as regras de resistência e redução de dano do dano contínuo.`,
+    a2: `Quando Nobara aplica Sangramento dos Pregos a um inimigo, aumenta o dano de DoT causado por ela contra esse inimigo em 12% por 2 turnos.
+
+- Não acumula com outras ativações.
+- A duração é renovada quando Nobara reaplica Sangramento.`,
+    a4: `Quando Nobara utiliza sua Suprema contra inimigos afetados pelo Sangramento dos Pregos, aumenta o dano da detonação em 20%.
+
+- Aplica-se somente à detonação da Suprema.
+- Não aumenta o dano direto da Suprema.
+- Não acumula.`,
+    a6: `Quando um inimigo afetado por dois acúmulos de Sangramento dos Pregos recebe a detonação da Suprema, Nobara recupera 5 de Energia por inimigo atingido.
+
+- Limite de 10 de Energia por utilização da Suprema.
+- A recuperação acontece uma única vez por inimigo em cada utilização.
+- Não é ativada por detonações de outros personagens.
+
+Os Rastros Maiores não aumentam o limite de acúmulos do Sangramento, que continua sendo 2. Também não alteram a duração original de 2 turnos.`,
+    e: [
+      `Quando Nobara atinge um inimigo com sua Perícia, caso ele esteja afetado pelo Sangramento dos Pregos, causa uma instância adicional de Dano Físico equivalente a 30% do ATQ de Nobara.
+
+- Pode ativar uma vez por inimigo a cada utilização da Perícia.
+- Não aplica Sangramento adicional.
+- Não pode ativar a si próprio.`,
+      `Quando Nobara utiliza sua Suprema, aumenta o dano de Sangramento dos Pregos causado contra todos os inimigos atingidos em 15% por 2 turnos.
+
+- O bônus afeta somente o Sangramento aplicado por Nobara.
+- Não acumula com outras ativações.
+- A duração é renovada ao utilizar novamente a Suprema.`,
+      `- Nível da Perícia +2.
+- Nível do Ataque Básico +1.`,
+      `Quando Nobara utiliza sua Suprema, inimigos atingidos que estejam afetados pelo Sangramento dos Pregos recebem uma redução de 10% na RES Física por 2 turnos.
+
+- Afeta somente a resistência Física.
+- Não acumula com outras aplicações deste mesmo efeito.
+- A duração é renovada quando a Suprema é utilizada novamente.`,
+      `- Nível da Suprema +2.
+- Nível da Perícia +2.`,
+      `Nobara aperfeiçoa sua conexão com os inimigos através da Técnica da Boneca de Palha.
+
+### Efeitos
+- O limite de acúmulos do Sangramento dos Pregos aumenta de 2 para 3.
+- Quando a Suprema detona o Sangramento, a porcentagem de dano antecipado aumenta em 20 pontos percentuais.
+- Quando Nobara utiliza sua Suprema contra um inimigo com 3 acúmulos de Sangramento, causa uma instância adicional de Dano Físico equivalente a 40% do ATQ de Nobara.
+
+### Regras importantes
+- O limite de detonação passa a ser de até 90% do dano que o Sangramento causaria no próximo intervalo, considerando o bônus de 20 pontos percentuais.
+- A instância adicional de 40% do ATQ pode acontecer uma vez por inimigo por utilização da Suprema.
+- O Sangramento continua sem ser consumido pela detonação.
+- A duração dos acúmulos não é reduzida.
+- A instância adicional não aplica novos acúmulos.
+- Não pode gerar ativações em cadeia.`
+    ]
+  },
+  doflamingo: {
+    b: `Doflamingo estende os dedos e dispara fios extremamente finos, cortando um único inimigo.
+
+### Efeito
+Causa Dano de Trevas equivalente a 50% do ATQ de Doflamingo a um inimigo.
+
+| Nível | Multiplicador |
+| 1 | 50% |
+| 2 | 60% |
+| 3 | 70% |
+| 4 | 80% |
+| 5 | 90% |
+| 6 | 100% |`,
+    s: `Tipo: Perícia · Ataque em área (Alvo principal + adjacentes)
+
+Doflamingo controla os movimentos do alvo utilizando fios invisíveis, causando dano e limitando sua movimentação.
+
+### Efeito
+- Causa Dano de Trevas equivalente a 80% do ATQ no inimigo principal.
+- Causa Dano de Trevas equivalente a 40% do ATQ nos inimigos adjacentes.
+- Aplica Fios Parasitas no inimigo principal com 100% de chance-base por 2 turnos.
+
+### Fios Parasitas
+- Reduz a VEL do inimigo em 10%.
+- Ao aplicar o efeito, atrasa a ação do alvo em 10%.
+- Não acumula com outras aplicações do mesmo efeito; reaplicar renova sua duração.
+
+| Nível | Alvo principal | Adjacentes |
+| 1 | 80% | 40% |
+| 2 | 88% | 44% |
+| 3 | 96% | 48% |
+| 4 | 104% | 52% |
+| 5 | 112% | 56% |
+| 6 | 120% | 60% |
+| 7 | 130% | 65% |
+| 8 | 140% | 70% |
+| 9 | 150% | 75% |
+| 10 | 160% | 80% |`,
+    u: `Tipo: Suprema · Ataque em área
+Custo de Energia: 140
+
+Doflamingo libera uma enorme quantidade de fios, envolvendo todos os inimigos e controlando seus movimentos como marionetes.
+
+### Efeito
+- Causa Dano de Trevas equivalente a 120% do ATQ de Doflamingo a todos os inimigos.
+- Aplica Marionete em todos os inimigos atingidos com 100% de chance-base por 2 turnos.
+- Inimigos afetados por Marionete têm sua VEL reduzida em 15%.
+- Quando um inimigo afetado por Marionete recebe um ataque de um aliado, Doflamingo causa uma instância adicional de Dano de Trevas equivalente a 20% do seu ATQ.
+
+### Regras de Marionete
+- O dano adicional pode ativar até 2 vezes por inimigo durante cada turno de Doflamingo.
+- O dano adicional não pode ativar outros efeitos de ataque adicional.
+- Marionete não acumula com outra aplicação do mesmo efeito; reaplicar renova sua duração.
+- A redução de VEL da Marionete não se acumula com a redução de VEL dos Fios Parasitas. Quando ambos estiverem ativos, prevalece o maior valor.
+
+| Nível | Dano de Trevas | Dano adicional |
+| 1 | 120% | 20% |
+| 2 | 132% | 22% |
+| 3 | 144% | 24% |
+| 4 | 156% | 26% |
+| 5 | 168% | 28% |
+| 6 | 180% | 30% |
+| 7 | 195% | 32% |
+| 8 | 210% | 34% |
+| 9 | 225% | 36% |
+| 10 | 240% | 40% |`,
+    t: `Tipo: Passivo
+
+Doflamingo manipula seus inimigos constantemente, aproveitando-se daqueles que estão presos em seus fios.
+
+### Efeito
+Sempre que um inimigo afetado por Fios Parasitas ou Marionete recebe dano de um aliado, Doflamingo tem 50% de chance-base de executar um ataque adicional, causando Dano de Trevas equivalente a 30% do seu ATQ.
+
+### Regras
+- Pode ativar uma vez por inimigo a cada turno de Doflamingo.
+- O ataque adicional não consome os efeitos negativos.
+- Não pode ativar outros ataques adicionais ou o próprio Talento.
+- A chance de ativação não é afetada pela Taxa de Acerto de Efeito.
+- Se o inimigo estiver afetado pelos dois efeitos, o Talento continua tendo apenas uma possibilidade de ativação.
+
+| Nível | Dano de Trevas |
+| 1 | 30% |
+| 2 | 33% |
+| 3 | 36% |
+| 4 | 39% |
+| 5 | 42% |
+| 6 | 45% |
+| 7 | 48% |
+| 8 | 51% |
+| 9 | 55% |
+| 10 | 60% |`,
+    a2: `Quando Doflamingo causa dano a um inimigo afetado por Fios Parasitas ou Marionete, aumenta o dano causado por ele contra esse inimigo em 10% por 2 turnos.
+
+- Não acumula com outras ativações.
+- A duração é renovada quando o efeito é ativado novamente.
+- O bônus afeta somente o dano causado por Doflamingo.`,
+    a4: `O domínio de Doflamingo sobre seus fios aumenta a eficiência de seu Talento.
+
+### Efeito
+- A chance-base de ativação do Talento aumenta de 50% para 60% contra inimigos afetados por Fios Parasitas ou Marionete.
+- Não é afetada pela Taxa de Acerto de Efeito.
+- Mantém o limite de uma ativação por inimigo a cada turno de Doflamingo.`,
+    a6: `Quando Doflamingo utiliza sua Suprema, inimigos atingidos que estejam simultaneamente afetados por Fios Parasitas e Marionete sofrem um atraso de ação adicional de 10%.
+
+- O efeito pode ocorrer uma vez por inimigo a cada utilização da Suprema.
+- Não aplica novos efeitos negativos.
+- Não acumula com outras ativações deste mesmo Rastro.
+- Não depende da quantidade de acúmulos de outros efeitos.`,
+    e: [
+      `Doflamingo aperfeiçoa o controle de seus fios, tornando seus ataques adicionais ainda mais perigosos.
+
+### Efeito
+Quando o Talento de Doflamingo ativa contra um inimigo afetado por Marionete, o ataque adicional causa 30% a mais de dano.
+
+- O bônus afeta somente o dano adicional do Talento.
+- Não aumenta o dano da Perícia ou da Suprema.
+- Não permite ativações adicionais do Talento.`,
+      `Doflamingo expande o alcance de seus fios, permitindo controlar vários adversários simultaneamente.
+
+### Efeito
+Quando Doflamingo utiliza sua Perícia, Fios Parasitas também é aplicado aos inimigos adjacentes ao alvo principal, com 100% de chance-base.
+
+- Os inimigos adjacentes recebem a redução de VEL de 10%.
+- A duração do efeito é de 2 turnos.
+- O atraso de ação de 10% também é aplicado quando Fios Parasitas é aplicado pela primeira vez.
+- Não acumula com outras aplicações de Fios Parasitas; reaplicar renova a duração.`,
+      `Doflamingo aprimora o domínio sobre suas técnicas, aumentando a eficiência de seus ataques.
+
+- Nível da Perícia +2.
+- Nível do Ataque Básico +1.`,
+      `Doflamingo consegue explorar ainda mais os movimentos dos inimigos controlados por seus fios.
+
+### Efeito
+Quando um inimigo afetado por Fios Parasitas ou Marionete recebe dano do ataque adicional do Talento de Doflamingo, sua RES a Trevas é reduzida em 8% por 2 turnos.
+
+- O efeito pode ser aplicado uma vez por inimigo a cada turno de Doflamingo.
+- Não acumula com outras aplicações deste mesmo efeito.
+- A duração é renovada quando aplicado novamente.
+- A redução de RES afeta somente o elemento Trevas.`,
+      `Doflamingo aperfeiçoa o controle de suas técnicas, aumentando o poder de sua Suprema e de seu Talento.
+
+- Nível da Suprema +2, até o máximo de Nv15.
+- Nível do Talento +2, até o máximo de Nv15.`,
+      `Doflamingo alcança o domínio absoluto sobre seus fios, transformando os inimigos afetados em verdadeiras marionetes.
+
+### Efeito
+Enquanto houver pelo menos um inimigo afetado por Fios Parasitas ou Marionete, Doflamingo recebe os seguintes bônus:
+- Aumenta seu Dano de Trevas em 20%.
+- Aumenta sua VEL em 10%.
+
+Além disso, quando Doflamingo utiliza sua Suprema, todos os inimigos atingidos que já estejam afetados por Fios Parasitas ou Marionete recebem uma instância adicional de Dano de Trevas equivalente a 50% do ATQ de Doflamingo.
+
+### Regras
+- O dano adicional pode ocorrer uma vez por inimigo a cada utilização da Suprema.
+- Não aplica novos efeitos negativos.
+- Não ativa o Talento.
+- Os bônus de Dano de Trevas e VEL são removidos quando não houver mais inimigos afetados pelos efeitos de Doflamingo.
+- Os bônus não acumulam com outras ativações do próprio Eidolon.`
+    ]
+  },
+  naruto_kid: {
+    b: `Naruto avança rapidamente e atinge um inimigo com um golpe reforçado por sua energia elemental.
+
+### Efeito
+Causa Dano de Vento equivalente a 50% do ATQ de Naruto a um único inimigo.
+
+| Nível | Multiplicador |
+| 1 | 50% |
+| 2 | 60% |
+| 3 | 70% |
+| 4 | 80% |
+| 5 | 90% |
+| 6 | 100% |`,
+    s: `Tipo: Perícia · Ataque em área (Alvo principal + adjacentes)
+
+Naruto cria dois clones das sombras e realiza um ataque coordenado, atingindo os inimigos com uma sequência de golpes rápidos.
+
+### Efeito
+- Executa 3 golpes consecutivos contra o inimigo principal.
+- Cada golpe causa Dano de Vento equivalente a 30% do ATQ de Naruto no alvo principal.
+- Os inimigos adjacentes recebem Dano de Vento equivalente a 15% do ATQ por golpe.
+
+Dano total no nível 1: alvo principal 90% do ATQ; inimigos adjacentes 45% do ATQ.
+
+| Nível | Alvo principal | Adjacentes |
+| 1 | 90% | 45% |
+| 2 | 99% | 49,5% |
+| 3 | 108% | 54% |
+| 4 | 117% | 58,5% |
+| 5 | 126% | 63% |
+| 6 | 135% | 67,5% |
+| 7 | 146% | 73% |
+| 8 | 157% | 78,5% |
+| 9 | 168% | 84% |
+| 10 | 180% | 90% |`,
+    u: `Tipo: Suprema · Ataque em área
+Custo de Energia: 140
+
+Naruto cria diversos clones das sombras que cercam os inimigos e realizam uma sequência de ataques coordenados, finalizando com um golpe poderoso.
+
+### Efeito
+- Causa Dano de Vento equivalente a 180% do ATQ de Naruto a todos os inimigos.
+- Para cada inimigo atingido, Naruto recebe 1 acúmulo de Espírito Ninja, até o máximo de 3 acúmulos.
+- Cada acúmulo de Espírito Ninja aumenta o ATQ de Naruto em 5% por 2 turnos.
+- Os acúmulos possuem duração independente e podem ser renovados, respeitando o limite máximo.
+
+| Nível | Dano de Vento |
+| 1 | 180% |
+| 2 | 198% |
+| 3 | 216% |
+| 4 | 234% |
+| 5 | 252% |
+| 6 | 270% |
+| 7 | 292% |
+| 8 | 314% |
+| 9 | 336% |
+| 10 | 360% |
+
+### Regras de Espírito Ninja
+- O máximo é de 3 acúmulos, independentemente da quantidade de inimigos atingidos.
+- Cada acúmulo concede ATQ +5%.
+- O bônus máximo é de 15% de ATQ.
+- Derrotar inimigos não concede acúmulos adicionais.
+- A duração não é renovada ao atingir novamente o limite de acúmulos.`,
+    t: `Tipo: Passivo
+
+Naruto nunca desiste de uma luta. Quanto mais pressionado fica, mais determinado se torna a continuar lutando.
+
+### Efeito
+Quando Naruto utiliza sua Perícia, existe 50% de chance de invocar um Clone das Sombras adicional para ajudá-lo no próximo ataque.
+
+Quando o efeito é ativado:
+- O próximo Ataque Básico de Naruto causa uma instância adicional de Dano de Vento equivalente a 40% do ATQ.
+- Após realizar o ataque adicional, o Clone das Sombras desaparece.
+- O efeito permanece disponível até ser consumido.
+
+### Regras
+- A chance de ativação não é afetada pela Taxa de Acerto de Efeito.
+- Só pode ativar uma vez por turno de Naruto.
+- Não acumula: uma nova ativação enquanto já existir um Clone disponível apenas renova sua disponibilidade.
+- O ataque adicional não recupera Energia.
+- O ataque adicional não pode ativar o próprio Talento.
+
+| Nível | Dano de Vento |
+| 1 | 40% |
+| 2 | 44% |
+| 3 | 48% |
+| 4 | 52% |
+| 5 | 56% |
+| 6 | 60% |
+| 7 | 64% |
+| 8 | 68% |
+| 9 | 72% |
+| 10 | 80% |`,
+    a2: `A determinação de Naruto aumenta durante o combate, fortalecendo seus ataques.
+
+### Efeito
+Após utilizar sua Perícia, Naruto recebe 8% de ATQ por 2 turnos.
+
+- O efeito não acumula com outras ativações.
+- Reutilizar a Perícia renova a duração.
+- O bônus é aplicado uma única vez por utilização da Perícia, independentemente da quantidade de golpes realizados.`,
+    a4: `Naruto aperfeiçoa sua Técnica dos Clones das Sombras, tornando seus ataques adicionais mais frequentes.
+
+### Efeito
+A chance-base de ativação do Talento aumenta de 50% para 60%.
+
+- Não é afetada pela Taxa de Acerto de Efeito.
+- Mantém o limite de uma ativação por turno de Naruto.
+- Não permite acumular Clones das Sombras adicionais.`,
+    a6: `A determinação de Naruto atinge seu potencial máximo quando ele reúne seus clones para lutar.
+
+### Efeito
+Enquanto Naruto possuir os 3 acúmulos de Espírito Ninja concedidos por sua Suprema, recebe:
+- Chance CRIT +12%.
+- Dano CRIT +15%.
+
+- Os bônus são aplicados somente enquanto Naruto possuir os 3 acúmulos.
+- São removidos quando perder pelo menos um acúmulo.
+- Não acumulam com outras ativações deste Rastro.`,
+    e: [
+      `Naruto aprimora sua técnica de combate, aproveitando melhor os clones das sombras para pressionar seus adversários.
+
+### Efeito
+Quando o Clone das Sombras do Talento é invocado, o próximo Ataque Básico de Naruto causa 20% a mais de dano.
+
+- O bônus afeta tanto o dano do Ataque Básico quanto o dano adicional do Clone.
+- O efeito é consumido após realizar o ataque.
+- Não acumula com outras ativações.`,
+      `Os clones de Naruto passam a coordenar seus movimentos com maior eficiência, aumentando o poder de sua Perícia.
+
+### Efeito
+Quando Naruto utiliza sua Perícia, cada inimigo atingido recebe uma marca de Confusão por 2 turnos.
+
+Enquanto estiver marcado:
+- O inimigo recebe 10% a mais de Dano de Vento causado por Naruto.
+- O bônus não acumula com outras aplicações.
+- A duração é renovada quando Naruto utiliza novamente sua Perícia.
+- A marca não causa dano por conta própria.`,
+      `Naruto aprimora suas técnicas de combate, aumentando o poder de suas habilidades.
+
+- Nível da Perícia +2.
+- Nível do Ataque Básico +1.`,
+      `Naruto aprende a aproveitar as aberturas criadas por seus clones, aumentando a precisão de seus ataques.
+
+### Efeito
+Quando Naruto causa dano a um inimigo afetado por Confusão, recebe 6% de Chance CRIT por 2 turnos.
+
+- Pode acumular até 3 vezes, totalizando 18% de Chance CRIT.
+- Cada ativação possui duração independente.
+- Atingir inimigos diferentes com a mesma habilidade não gera múltiplas ativações.
+- O efeito só pode ser ativado uma vez por turno de Naruto.`,
+      `Naruto aperfeiçoa sua técnica suprema e seu domínio sobre os clones das sombras.
+
+- Nível da Suprema +2, até o máximo de Nv15.
+- Nível do Talento +2, até o máximo de Nv15.`,
+      `Naruto libera todo o potencial de sua determinação, reunindo seus clones para executar ataques ainda mais poderosos.
+
+### Efeito
+Quando Naruto utiliza sua Suprema, recebe imediatamente 3 acúmulos de Espírito Ninja, independentemente da quantidade de inimigos atingidos.
+
+Além disso:
+- Enquanto possuir 3 acúmulos de Espírito Ninja, o dano de sua Perícia aumenta em 20%.
+- O ataque adicional do Clone das Sombras do Talento passa a causar 100% do ATQ de Naruto, em vez de 80% no nível máximo.
+- Ao utilizar sua Suprema enquanto já possuir 3 acúmulos, recupera 10 de Energia.
+
+### Regras
+- Os 3 acúmulos concedidos pela Suprema respeitam a duração normal de Espírito Ninja.
+- O bônus de dano da Perícia só funciona enquanto Naruto possuir os 3 acúmulos.
+- A recuperação de Energia ocorre uma vez por utilização da Suprema.
+- O efeito não pode gerar Energia adicional por meio de outras ativações do próprio Eidolon.`
+    ]
+  },
+  bulma: {
+    b: `Bulma utiliza uma pequena arma tecnológica desenvolvida pela Capsule Corporation para disparar um projétil contra o inimigo.
+
+### Efeito
+Causa Dano Físico equivalente a 50% do ATQ de Bulma a um único inimigo.
+
+| Nível | Multiplicador |
+| 1 | 50% |
+| 2 | 60% |
+| 3 | 70% |
+| 4 | 80% |
+| 5 | 90% |
+| 6 | 100% |`,
+    s: `Tipo: Perícia · Suporte · Alvo único
+
+Bulma utiliza os recursos da Capsule Corporation para fornecer equipamentos especiais e melhorias tecnológicas a um aliado selecionado.
+
+### Efeito
+Seleciona um aliado e concede o buff Bufunfa por 2 turnos de Bulma.
+
+Enquanto estiver sob o efeito de Bufunfa, o aliado recebe:
+- ATQ aumentado em 18%.
+- Dano CRIT aumentado em 12%.
+
+### Regras de Bufunfa
+- Pode ser aplicado a qualquer aliado, exceto a própria Bulma.
+- Apenas um aliado pode receber Bufunfa por utilização da Perícia.
+- Reaplicar Bufunfa renova sua duração, sem acumular os bônus.
+- A duração diminui nos turnos de Bulma.
+- Se o aliado for derrotado, o efeito é removido.
+
+| Nível | ATQ | Dano CRIT |
+| 1 | 18% | 12% |
+| 2 | 19,5% | 13% |
+| 3 | 21% | 14% |
+| 4 | 22,5% | 15% |
+| 5 | 24% | 16% |
+| 6 | 25,5% | 17% |
+| 7 | 27,5% | 18% |
+| 8 | 29,5% | 19% |
+| 9 | 31,5% | 20% |
+| 10 | 34% | 22% |`,
+    u: `Tipo: Suprema · Suporte · Buff em equipe
+Custo de Energia: 130
+
+Bulma ativa um dispositivo especial da Capsule Corporation, criando uma enorme zona de dinheiro. Uma chuva de notas e moedas começa a cair sobre todos os aliados, aumentando seus recursos e seu poder de combate.
+
+### Efeito
+Aplica Chuva de Bufunfa a todos os aliados por 2 turnos.
+
+Enquanto estiverem sob esse efeito, os aliados recebem:
+- ATQ aumentado em 12%.
+- Dano causado aumentado em 10%.
+
+### Regras de Chuva de Bufunfa
+- O efeito é aplicado a todos os personagens aliados, incluindo Bulma.
+- Cada aliado possui sua própria duração de 2 turnos.
+- Reutilizar a Suprema renova a duração, sem acumular os bônus.
+- Os bônus de ATQ e Dano causado são independentes dos bônus de Bufunfa, concedido pela Perícia.
+- O efeito continua ativo mesmo que Bulma seja derrotada, até sua duração terminar.
+
+| Nível | ATQ | Dano causado |
+| 1 | 12% | 10% |
+| 2 | 13% | 10,8% |
+| 3 | 14% | 11,6% |
+| 4 | 15% | 12,4% |
+| 5 | 16% | 13,2% |
+| 6 | 17% | 14% |
+| 7 | 18,5% | 15% |
+| 8 | 20% | 16% |
+| 9 | 21,5% | 17% |
+| 10 | 23% | 18% |
+
+### Adição à Suprema — Zona de Dinheiro
+Ao utilizar a Suprema, Bulma também seleciona um aliado e avança a ação dele em 25%.
+- O aliado é selecionado pelo jogador no momento da utilização.
+- Pode selecionar qualquer aliado, inclusive a própria Bulma.
+- O avanço de ação acontece imediatamente após a ativação da Suprema.
+- Não acumula com outros avanços de ação; aplica-se normalmente ao progresso atual do personagem.`,
+    t: `Quando um aliado afetado por Bufunfa causa dano a um inimigo, Bulma ativa o efeito Lucro Garantido.
+
+- O aliado recebe um aumento de Dano causado conforme o nível do Talento, por 1 turno.
+- Bulma recupera 20 pontos de Energia.
+- O efeito pode ser ativado uma vez por turno de Bulma.
+
+Bônus adicional: se o aliado também estiver sob o efeito de Chuva de Bufunfa, o aumento de Dano causado por Lucro Garantido recebe mais 4%.
+
+### Regras
+- A recuperação de 20 de Energia ocorre somente uma vez por turno de Bulma.
+- O bônus de dano não acumula com outras ativações.
+- Ataques adicionais também podem ativar o Talento, respeitando o limite de ativação.
+
+| Nível | Dano causado (provisório) |
+| 1 | 10% |
+| 2 | 11% |
+| 3 | 12% |
+| 4 | 13% |
+| 5 | 14% |
+| 6 | 15% |
+| 7 | 16,25% |
+| 8 | 17,5% |
+| 9 | 18,75% |
+| 10 | 20% |`,
+    a2: `Bulma aperfeiçoa os investimentos realizados nos aliados, aumentando progressivamente os benefícios de Bufunfa.
+
+### Efeito
+Sempre que Bulma utiliza sua Perícia em um aliado, ele recebe 1 acúmulo de Capitalização, até um máximo de 3 acúmulos.
+
+Cada acúmulo concede:
+- ATQ +2%.
+- Dano CRIT +2%.
+
+### Regras
+- Cada acúmulo possui duração de 2 turnos de Bulma.
+- Os acúmulos possuem duração independente.
+- Utilizar novamente a Perícia no mesmo aliado adiciona um novo acúmulo.
+- Ao atingir 3 acúmulos, o aliado recebe ATQ +6% e Dano CRIT +6%.
+- Os acúmulos são removidos quando Bufunfa termina.`,
+    a4: `Bulma transforma os ataques dos aliados em novas oportunidades de investimento, aumentando progressivamente o rendimento da equipe.
+
+### Efeito
+Enquanto Chuva de Bufunfa estiver ativa, sempre que um aliado causar dano durante sua ação, Bulma recebe 1 acúmulo de Dividendos.
+
+Cada acúmulo aumenta o Dano causado por todos os aliados em 1,2%.
+- Máximo de 5 acúmulos.
+- Bônus máximo de Dano causado: 6%.
+- Duração de 2 turnos de Bulma.
+- Cada nova ativação adiciona um acúmulo e renova a duração dos Dividendos.
+- Apenas uma ativação por ação de cada aliado, independentemente da quantidade de golpes realizados.
+- Os acúmulos continuam funcionando mesmo que Chuva de Bufunfa termine, até sua duração acabar.`,
+    a6: `Bulma aperfeiçoa seu sistema de investimentos, fazendo com que os aliados recebam rendimentos cada vez maiores.
+
+### Efeito
+O efeito Lucro Garantido do Talento passa a acumular até 3 vezes no mesmo aliado.
+- Cada acúmulo concede o bônus de Dano causado correspondente ao nível do Talento.
+- Cada acúmulo possui duração independente de 3 turnos de Bulma.
+- Um novo acúmulo não substitui os anteriores.
+- O limite continua sendo de 3 acúmulos por aliado.
+- O bônus adicional de 4% concedido quando o aliado também possui Chuva de Bufunfa é aplicado uma única vez, independentemente da quantidade de acúmulos.
+- A recuperação de 20 de Energia do Talento continua limitada a uma ativação por turno de Bulma.
+
+Regra de acúmulo: Bufunfa, Chuva de Bufunfa, Capitalização, Dividendos e Lucro Garantido são efeitos diferentes. Seus bônus podem funcionar simultaneamente, inclusive quando aumentam o mesmo atributo. Somente aplicações repetidas de um mesmo efeito sem mecânica de acúmulo renovam sua duração, em vez de duplicar seu valor.`,
+    e: [
+      `Quando um aliado afetado por Bufunfa causa dano, Bulma concede a ele 1 acúmulo de Rendimento Extra.
+
+Cada acúmulo aumenta o ATQ do aliado em 3% por 2 turnos de Bulma.
+- Máximo de 3 acúmulos por aliado.
+- Cada acúmulo possui duração individual.
+- Novos acúmulos não renovam a duração dos anteriores.
+- A ativação respeita o limite de uma ativação do Talento por turno de Bulma.
+- Não é necessário que o aliado também possua Chuva de Bufunfa.`,
+      `Ao utilizar a Suprema, o avanço de ação do aliado selecionado aumenta de 25% para 40%.
+
+Além disso, o aliado selecionado recebe Dano causado +10% por 2 turnos de Bulma.
+- O bônus de Dano causado não acumula consigo mesmo.
+- Reutilizar a Suprema renova sua duração.
+- O avanço de ação continua sendo aplicado imediatamente.
+- O efeito pode selecionar a própria Bulma.`,
+      `Aprimora as habilidades de Bulma, aumentando os níveis de suas técnicas.
+
+- Perícia +2 níveis, até o máximo de Nv15.
+- Ataque Básico +1 nível, até o máximo de Nv10.`,
+      `Bulma aprende a transformar os ganhos da equipe em ainda mais poder ofensivo.
+
+### Efeito
+Enquanto Chuva de Bufunfa estiver ativa, todos os aliados recebem ATQ +8% e Dano CRIT +8%.
+- O efeito permanece enquanto Chuva de Bufunfa estiver ativa.
+- O bônus não acumula consigo mesmo.
+- Reutilizar a Suprema renova a duração de Chuva de Bufunfa normalmente.
+- O bônus é removido quando Chuva de Bufunfa termina.`,
+      `Aprimora as habilidades de Bulma, aumentando os níveis de suas técnicas.
+
+- Suprema +2 níveis, até o máximo de Nv15.
+- Talento +2 níveis, até o máximo de Nv15.`,
+      `Bulma libera todo o potencial de seus investimentos, transformando os ganhos acumulados em um enorme aumento de poder para a equipe.
+
+### Efeito
+Enquanto Chuva de Bufunfa estiver ativa:
+- Todos os aliados recebem Dano causado +15%.
+- Todos os aliados recebem VEL +8%.
+
+Além disso, sempre que Bulma utiliza sua Suprema, todos os aliados afetados por Chuva de Bufunfa recebem 1 acúmulo de Fortuna Suprema.
+
+Cada acúmulo concede Dano CRIT +5% por 2 turnos de Bulma.
+- Máximo de 3 acúmulos por aliado.
+- Cada acúmulo possui duração individual.
+- Novos acúmulos não renovam a duração dos anteriores.
+- Ao atingir 3 acúmulos, o aliado recebe Dano CRIT +15%.
+- Reutilizar a Suprema pode conceder novos acúmulos, respeitando o limite.
+- Os bônus de Dano causado e VEL são removidos quando Chuva de Bufunfa termina.`
+    ]
+  },
+  archer: {
+    b: `Archer utiliza sua magia de projeção para materializar uma lâmina e lançá-la contra um inimigo, causando Dano de Reality equivalente a 50% do ATQ.
+
+| Nível | Dano |
+| Nv.1 | 50% |
+| Nv.2 | 60% |
+| Nv.3 | 70% |
+| Nv.4 | 80% |
+| Nv.5 | 90% |
+| Nv.6 | 100% |`,
+    s: `Archer materializa suas duas espadas lendárias, Kanshou e Bakuya, e realiza um ataque combinado extremamente preciso contra um único inimigo.
+
+- Causa Dano de Reality equivalente a 140% do ATQ de Archer ao inimigo selecionado.
+- Possui foco exclusivamente em alvo único.
+- Não causa dano aos inimigos adjacentes.
+- O ataque não é considerado um ataque adicional.
+- O dano é calculado com base no ATQ de Archer no momento da execução.
+
+| Nível | Dano |
+| Nv.1 | 140% |
+| Nv.2 | 154% |
+| Nv.3 | 168% |
+| Nv.4 | 182% |
+| Nv.5 | 196% |
+| Nv.6 | 210% |
+| Nv.7 | 228% |
+| Nv.8 | 246% |
+| Nv.9 | 264% |
+| Nv.10 | 280% |`,
+    u: `Archer libera parte de sua realidade interior, materializando inúmeras armas projetadas e concentrando todo o seu poder em um único inimigo.
+
+- Causa Dano de Reality equivalente a 300% do ATQ de Archer a um único inimigo.
+- Após o ataque, Archer recebe 2 acúmulos de Projeção Preparada.
+- Cada acúmulo de Projeção Preparada aumenta o Dano causado pela próxima Perícia de Archer em 10%.
+- Máximo de 2 acúmulos, totalizando 20% de Dano adicional.
+- Os acúmulos são consumidos quando Archer utiliza sua Perícia.
+- Os acúmulos duram 2 turnos de Archer.
+- Utilizar novamente a Suprema enquanto já possui acúmulos não ultrapassa o limite máximo.
+
+Custo de Energia: 145.
+
+| Nível | Dano |
+| Nv.1 | 300% |
+| Nv.2 | 330% |
+| Nv.3 | 360% |
+| Nv.4 | 390% |
+| Nv.5 | 420% |
+| Nv.6 | 450% |
+| Nv.7 | 487% |
+| Nv.8 | 525% |
+| Nv.9 | 562% |
+| Nv.10 | 600% |`,
+    t: `Archer analisa os movimentos de seus adversários, identificando pontos vulneráveis para preparar ataques mais precisos.
+
+### Efeito
+Sempre que Archer utiliza sua Perícia ou Suprema contra um inimigo, aplica nele o estado Alvo Analisado por 2 turnos de Archer.
+
+Enquanto o inimigo estiver com Alvo Analisado:
+- Archer causa 8% mais Dano de Reality contra ele.
+- Apenas um inimigo pode possuir Alvo Analisado por vez.
+- Caso Archer aplique o efeito em outro inimigo, a marca anterior é removida e transferida para o novo alvo.
+
+### Regras de duração
+- Alvo Analisado dura exatamente 2 turnos de Archer.
+- Não é possível reaplicar o efeito no mesmo inimigo enquanto ele ainda estiver marcado.
+- Após o efeito terminar, Archer poderá aplicá-lo novamente ao mesmo inimigo.
+- Acertar novamente um inimigo que já possui Alvo Analisado não renova nem prolonga sua duração.
+- A duração não pode ultrapassar o limite estabelecido por nenhuma outra ativação do Talento.
+
+### Ataque Adicional — Projeção de Combate
+Esta mecânica é desbloqueada exclusivamente pelo Rastro Maior A2. Após desbloqueá-la, quando um aliado atacar um inimigo com Alvo Analisado, Archer executa um ataque adicional contra esse inimigo.
+- Causa Dano de Reality baseado no ATQ de Archer.
+- Pode ser ativado uma vez por turno de Archer.
+- O ataque adicional não consome Alvo Analisado.
+- Não ativa a si próprio nem desencadeia outros ataques adicionais.
+- Não é considerado utilização de Perícia ou Suprema.
+
+| Nível | Dano |
+| Nv.1 | 40% |
+| Nv.2 | 44% |
+| Nv.3 | 48% |
+| Nv.4 | 52% |
+| Nv.5 | 56% |
+| Nv.6 | 60% |
+| Nv.7 | 64% |
+| Nv.8 | 68% |
+| Nv.9 | 74% |
+| Nv.10 | 80% |`,
+    a2: `Archer aperfeiçoa sua capacidade de combate, permitindo que suas projeções ataquem em conjunto com seus aliados.
+
+### Efeito
+Desbloqueia a mecânica de Projeção de Combate do Talento.
+
+Quando um aliado ataca um inimigo afetado por Alvo Analisado, Archer executa um ataque adicional contra esse inimigo, causando Dano de Reality conforme o nível do Talento (80% do ATQ no Nv. 10).
+
+- Pode ativar uma vez por turno de Archer.
+- O ataque adicional não consome Alvo Analisado.
+- Não pode ativar a si próprio nem desencadear outros ataques adicionais.
+- Não renova a duração de Alvo Analisado.`,
+    a4: `Archer aperfeiçoa suas projeções, aumentando a precisão e o poder destrutivo de seus ataques.
+
+### Efeito
+- Aumenta o Dano CRIT de Archer em 18%.
+- Quando Archer ataca um inimigo afetado por Alvo Analisado, recebe mais 12% de Dano CRIT contra esse inimigo.
+- O segundo bônus só funciona contra o inimigo marcado.
+- Os bônus são aplicados enquanto Alvo Analisado estiver ativo e desaparecem quando o efeito termina.`,
+    a6: `Archer transforma sua determinação em poder ofensivo, aumentando drasticamente sua capacidade de eliminar adversários prioritários.
+
+### Efeito
+- Aumenta o Dano de Reality de Archer em 20%.
+- Quando Archer utiliza sua Suprema contra um inimigo afetado por Alvo Analisado, causa uma instância adicional de Dano de Reality equivalente a 100% do ATQ.
+- Esse dano adicional acontece uma única vez por utilização da Suprema.
+- O dano adicional não consome Alvo Analisado e não ativa o Talento.
+- Archer recebe 10 de Energia quando derrota um inimigo afetado por Alvo Analisado. Esse efeito pode ocorrer uma vez por turno de Archer.`,
+    e: [
+      `Archer aperfeiçoa a conexão entre suas duas espadas projetadas, aumentando a eficiência de seus ataques contra inimigos analisados.
+
+### Efeito
+- Quando Archer ataca um inimigo afetado por Alvo Analisado, causa 15% de Dano adicional.
+- O bônus também se aplica ao ataque adicional de Projeção de Combate.
+- O bônus não acumula consigo mesmo.
+- O efeito funciona somente enquanto Alvo Analisado estiver ativo.`,
+      `Archer aprimora sua capacidade de utilizar suas projeções em sequência, aumentando o poder de seus ataques consecutivos.
+
+### Efeito
+- Quando Archer utiliza sua Perícia contra um inimigo afetado por Alvo Analisado, recebe 1 acúmulo de Lâmina Projetada.
+- Cada acúmulo aumenta o Dano da próxima Perícia em 12%.
+- Máximo de 3 acúmulos, totalizando 36% de Dano adicional.
+- Cada acúmulo dura 2 turnos de Archer.
+- Os acúmulos possuem durações individuais.
+- Novos acúmulos não renovam a duração dos anteriores.
+- Todos os acúmulos são consumidos quando Archer utiliza sua Perícia.
+
+Limitação: a Perícia utilizada para gerar os acúmulos não recebe o bônus deles. Os bônus só afetam as próximas utilizações.`,
+      `Aprimora as habilidades de combate de Archer, aumentando os níveis de suas técnicas.
+
+- Perícia +2 níveis, até o máximo de Nv15.
+- Ataque Básico +1 nível, até o máximo de Nv10.`,
+      `Archer aperfeiçoa sua capacidade de analisar e explorar as fraquezas dos adversários, tornando seus ataques ainda mais letais.
+
+### Efeito
+- Enquanto existir um inimigo afetado por Alvo Analisado, Archer recebe ATQ +12%.
+- Quando Archer ataca esse inimigo, recebe mais 15% de PEN de RES a Reality.
+- O bônus de ATQ permanece enquanto Alvo Analisado estiver ativo.
+- A PEN de RES a Reality só se aplica contra o inimigo marcado.
+- Caso Alvo Analisado termine ou seja removido, os bônus correspondentes também desaparecem.`,
+      `Aprimora o domínio de Archer sobre sua realidade interior, aumentando os níveis de suas habilidades.
+
+- Suprema +2 níveis, até o máximo de Nv15.
+- Talento +2 níveis, até o máximo de Nv15.`,
+      `Archer alcança o ápice de sua magia de projeção, transformando suas armas materializadas em instrumentos de destruição absoluta.
+
+### Efeito
+- Aumenta o Dano CRIT de Archer em 30%.
+- Quando Archer utiliza sua Suprema contra um inimigo afetado por Alvo Analisado, causa uma instância adicional de Dano de Reality equivalente a 150% do ATQ.
+- Esse dano adicional ocorre uma única vez por utilização da Suprema.
+- Após utilizar a Suprema, Archer recebe 1 acúmulo de Lâmina Suprema por 2 turnos de Archer.
+- Cada acúmulo aumenta o Dano de Reality de Archer em 8%.
+- Máximo de 2 acúmulos, totalizando 16%.
+- Cada acúmulo possui duração individual.
+- Novos acúmulos não renovam a duração dos anteriores.
+- A Lâmina Suprema não pode ser obtida novamente enquanto Archer já possuir 2 acúmulos.
+- O dano adicional da Suprema não ativa o Talento nem gera outros ataques adicionais.`
+    ]
+  },
+  goku_saiyan: {
+    b: `Goku avança contra um inimigo e desfere um poderoso golpe físico, concentrando sua força e energia no impacto.
+
+- Causa Dano de Luz equivalente a 50% do ATQ de Goku a um único inimigo.
+
+| Nível | Dano |
+| Nv.1 | 50% |
+| Nv.2 | 60% |
+| Nv.3 | 70% |
+| Nv.4 | 80% |
+| Nv.5 | 90% |
+| Nv.6 | 100% |`,
+    s: `Goku ativa o Kaio-Ken, elevando drasticamente sua força e velocidade. Em seguida, concentra toda essa energia em um golpe devastador contra um único inimigo.
+
+- Causa Dano de Luz equivalente a 120% do ATQ de Goku ao inimigo selecionado.
+- Após o ataque, Goku recebe o estado Kaio-Ken por 2 turnos de Goku.
+- Enquanto Kaio-Ken estiver ativo, Goku causa 12% mais Dano.
+- O bônus afeta todas as fontes de dano de Goku.
+
+### Regras de duração
+- Kaio-Ken não possui acúmulos.
+- Não é possível reaplicar Kaio-Ken enquanto o estado estiver ativo.
+- Utilizar novamente a Perícia durante esse período causa apenas o dano direto, sem renovar a duração do estado.
+- Após o efeito terminar, poderá ser ativado novamente.
+
+| Nível | Dano (rebalanceado) |
+| Nv.1 | 120% |
+| Nv.2 | 132% |
+| Nv.3 | 144% |
+| Nv.4 | 156% |
+| Nv.5 | 168% |
+| Nv.6 | 180% |
+| Nv.7 | 195% |
+| Nv.8 | 210% |
+| Nv.9 | 226% |
+| Nv.10 | 240% |`,
+    u: `Goku concentra uma quantidade absurda de energia, elevando o Kaio-Ken ao seu limite e disparando um Kamehameha extremamente poderoso contra um único inimigo.
+
+Custo de Energia: 140
+
+### Efeito
+- Causa Dano de Luz equivalente a 288% do ATQ de Goku a um único inimigo.
+- Se Goku estiver sob o efeito de Kaio-Ken, a Suprema recebe um aumento de 20% no Dano causado.
+- Após atingir o inimigo, reduz sua RES a Luz em 12% por 2 turnos do inimigo.
+- A redução de RES a Luz não acumula consigo mesma.
+- Utilizar novamente a Suprema enquanto a redução estiver ativa não renova sua duração.
+- O efeito poderá ser aplicado novamente após terminar.
+
+| Nível | Dano de Luz (rebalanceado) |
+| Nv.1 | 288% |
+| Nv.2 | 317% |
+| Nv.3 | 346% |
+| Nv.4 | 374% |
+| Nv.5 | 403% |
+| Nv.6 | 432% |
+| Nv.7 | 468% |
+| Nv.8 | 504% |
+| Nv.9 | 540% |
+| Nv.10 | 576% |`,
+    t: `Goku possui uma determinação extraordinária durante o combate. Quanto mais luta, mais consegue superar seus próprios limites.
+
+### Efeito
+Sempre que Goku utiliza sua Perícia ou Suprema, recebe 1 acúmulo de Espírito de Luta.
+
+Cada acúmulo concede:
+- ATQ +4%.
+- Dano CRIT +3%.
+
+### Limites e duração
+- Máximo de 4 acúmulos.
+- Cada acúmulo possui duração individual de 2 turnos de Goku.
+- Novos acúmulos não renovam a duração dos anteriores.
+- Ao atingir 4 acúmulos, Goku recebe ATQ +16% e Dano CRIT +12%.
+- Os acúmulos são removidos individualmente quando suas respectivas durações terminam.
+
+### Ataque Adicional — Investida Saiyajin
+Quando Goku possui 4 acúmulos de Espírito de Luta e utiliza sua Perícia ou Suprema, executa automaticamente um ataque adicional contra o mesmo inimigo atingido.
+- Causa Dano de Luz conforme a tabela abaixo.
+- Pode acontecer uma vez por turno de Goku.
+- Não consome os acúmulos de Espírito de Luta.
+- Não gera Energia.
+- Não ativa novamente o próprio Talento.
+- Não pode desencadear outros ataques adicionais.
+
+| Nível | Dano (rebalanceado) |
+| Nv.1 | 50% |
+| Nv.2 | 55% |
+| Nv.3 | 60% |
+| Nv.4 | 65% |
+| Nv.5 | 70% |
+| Nv.6 | 75% |
+| Nv.7 | 81% |
+| Nv.8 | 87% |
+| Nv.9 | 93% |
+| Nv.10 | 100% |`,
+    a2: `Goku aprende a controlar melhor o Kaio-Ken, aproveitando sua energia para aumentar o poder de seus ataques.
+
+### Efeito
+Enquanto Kaio-Ken estiver ativo:
+- Aumenta o ATQ de Goku em 8% (rebalanceado).
+- Aumenta o Dano CRIT de Goku em 8% (rebalanceado).
+
+Os bônus desaparecem quando Kaio-Ken termina.`,
+    a4: `Goku consegue identificar os momentos certos para aproveitar as aberturas deixadas pelos adversários.
+
+### Efeito
+Quando Goku atinge um inimigo com sua Suprema, todos os aliados recebem Dano causado +8% por 2 turnos de Goku.
+
+- O bônus não acumula consigo mesmo.
+- Reaplicar o efeito enquanto estiver ativo não renova sua duração.
+- Após o efeito terminar, poderá ser aplicado novamente.
+- Goku também recebe esse bônus.`,
+    a6: `Goku ultrapassa temporariamente seus próprios limites, concentrando ainda mais energia em seus ataques.
+
+### Efeito
+Enquanto Kaio-Ken estiver ativo:
+- Aumenta o Dano de Luz de Goku em 10% (rebalanceado).
+- Quando Goku utiliza sua Suprema, causa uma instância adicional de Dano de Luz equivalente a 60% do ATQ contra o mesmo inimigo atingido.
+- Esse dano adicional ocorre uma única vez por utilização da Suprema.
+- O dano adicional não ativa o Talento nem desencadeia outros ataques adicionais.
+
+Além disso, quando Goku está com 4 acúmulos de Espírito de Luta, recebe 10% de PEN de RES a Luz. Esse bônus desaparece quando Goku perde os 4 acúmulos.`,
+    e: [
+      `Goku consegue extrair ainda mais força de suas experiências durante o combate.
+
+### Efeito
+- Cada acúmulo de Espírito de Luta passa a conceder ATQ +5% e Dano CRIT +4%, em vez dos valores originais.
+- Com 4 acúmulos, Goku recebe ATQ +20% e Dano CRIT +16%.
+- O limite continua sendo de 4 acúmulos.
+- As durações individuais permanecem em 2 turnos de Goku.
+- Novos acúmulos não renovam a duração dos anteriores.`,
+      `Goku aperfeiçoa o controle do Kaio-Ken, conseguindo utilizar sua energia de maneira ainda mais destrutiva.
+
+### Efeito
+- Enquanto Kaio-Ken estiver ativo, Goku recebe Chance CRIT +12%.
+- Quando Goku utiliza sua Suprema durante Kaio-Ken, recupera 10 de Energia após a execução.
+- A recuperação de Energia pode acontecer uma vez por utilização da Suprema.
+- O bônus de Chance CRIT desaparece quando Kaio-Ken termina.
+- A recuperação de Energia não pode ultrapassar a Energia máxima de Goku.`,
+      `- Nível da Perícia Kaio-Ken: Golpe Explosivo +2, até o máximo de Nv15.
+- Nível do Ataque Básico Punho do Guerreiro +1, até o máximo de Nv10.`,
+      `Goku transforma sua determinação em ainda mais poder ofensivo.
+
+### Efeito
+- O dano do ataque adicional do Talento Espírito de Luta Saiyajin aumenta em 30%.
+- Quando esse ataque adicional atinge um inimigo afetado pela redução de RES a Luz da Suprema, causa mais 20% de dano.
+- Os bônus são multiplicativos entre si e não alteram a quantidade de ataques adicionais que Goku pode realizar.
+- Esse efeito não ativa novamente o Talento nem gera outros ataques adicionais.`,
+      `- Nível da Suprema Kaio-Ken x4: Kamehameha Supremo +2, até o máximo de Nv15.
+- Nível do Talento Espírito de Luta Saiyajin +2, até o máximo de Nv15.`,
+      `Goku concentra toda a força do Kaio-Ken em um Kamehameha devastador, ultrapassando temporariamente seus próprios limites.
+
+### Efeito
+- Enquanto estiver sob o efeito de Kaio-Ken, o dano da Suprema aumenta em 30%.
+- Ao utilizar a Suprema durante Kaio-Ken, após o ataque principal, Goku executa um golpe adicional de Kamehameha contra o mesmo inimigo, causando 150% do ATQ como Dano de Luz.
+- Esse golpe adicional pode ocorrer apenas uma vez por ativação de Kaio-Ken.
+- O golpe adicional não ativa o Talento, não gera Energia e não pode desencadear outros ataques adicionais.
+- O efeito não prolonga nem renova a duração de Kaio-Ken.`
+    ]
+  }
+};
+const fullOf = (c, k) => c && c.full ? (k[0] === "e" ? (c.full.e || [])[+k.slice(1)] : c.full[k]) : null;
+/* texto simples → HTML seguro (títulos, listas, tabelas e parágrafos); cur = nível atual destacado na tabela */
+function mdLite(t, cur) {
+  const out = [], L0 = String(t || "").split("\n");
+  let list = null, tbl = null;
+  const flush = () => { if (list) { out.push(`<ul>${list.join("")}</ul>`); list = null; } if (tbl) { out.push(`<table class="tbl fdt">${tbl.map((r, i) => `<tr${i && cur != null && +((r[0].match(/\d+/) || [])[0]) === cur ? ' class="cur"' : ""}>${r.map(c => i ? `<td>${esc0(c)}</td>` : `<th>${esc0(c)}</th>`).join("")}</tr>`).join("")}</table>`); tbl = null; } };
+  for (const raw of L0) {
+    const l = raw.trim();
+    if (!l) { flush(); continue; }
+    if (l.startsWith("|")) { if (list) flush(); (tbl = tbl || []).push(l.replace(/^\||\|$/g, "").split("|").map(x => x.trim())); continue; }
+    if (tbl) flush();
+    if (l.startsWith("- ")) { (list = list || []).push(`<li>${esc0(l.slice(2))}</li>`); continue; }
+    if (list) flush();
+    if (l.startsWith("### ")) { out.push(`<h5>${esc0(l.slice(4))}</h5>`); continue; }
+    out.push(`<p>${esc0(l)}</p>`);
+  }
+  flush();
+  return `<div class="fd">${out.join("")}</div>`;
+}
+
+/* =====================================================================
    ASTRALIS · HABILIDADES, RASTROS, EIDOLONS E EFEITOS (dados estruturados)
    Tudo aqui é dado lido pelo motor: nenhum personagem tem exceção no código.
    - Níveis de habilidade (Básico 1–6, Perícia/Suprema/Talento 1–10) com
@@ -3693,7 +5068,7 @@ for (const id in CHAR_BUILTIN) Object.assign(CHAR_BUILTIN[id], { id, builtin: tr
 /* junta os personagens da coleção ao catálogo (a imagem vem do Admin) */
 const BAN_STD_ID = "mochileiro";
 function withBuiltinChars(CAT) {
-  for (const id in CHAR_BUILTIN) { const d = CAT.chars[id] || {}; CAT.chars[id] = { ...CHAR_BUILTIN[id], spr: d.spr || "", eimg: d.eimg || [] }; }
+  for (const id in CHAR_BUILTIN) { const d = CAT.chars[id] || {}; CAT.chars[id] = { ...CHAR_BUILTIN[id], full: FULL[id], spr: d.spr || "", eimg: d.eimg || [] }; }
   /* banner permanente do Mochileiro (o Admin pode editar nome, arte e textos; o tipo continua "std") */
   CAT.bans = CAT.bans || {};
   const mb = CAT.bans[BAN_STD_ID] || {};
@@ -3950,7 +5325,7 @@ function save() {
   if (RT.db && RT.uid) { clearTimeout(saveT); saveT = setTimeout(cloudSave, 2500); }
 }
 async function cloudSave() {
-  if (!RT.db || !RT.uid) return false;
+  if (!RT.db || !RT.uid || RT.synced !== RT.uid) return false; /* só grava depois de ler o save da nuvem desta conta */
   clearTimeout(saveT);
   try {
     await RT.db.doc("data/users/" + RT.uid + "/save").set({ s: JSON.stringify(S), ts: S.ts });
@@ -3960,14 +5335,19 @@ async function cloudSave() {
   } catch (e) { RT.cloudErr = e.message || e.code || "erro"; return false; }
 }
 async function loadCloud() {
+  /* save local de outra conta (ou de convidado) nunca vai para esta conta: conta nova começa do zero */
+  RT.synced = null;
+  if (S.acct !== RT.uid) { S = newState(); S.acct = RT.uid; }
   try {
     const d = await RT.db.doc("data/users/" + RT.uid + "/save").get();
+    RT.synced = RT.uid;
     if (d.exists) {
       const x = d.data();
       if ((x.ts || 0) > (S.ts || 0)) { S = migrate(JSON.parse(x.s)); try { localStorage.setItem(LS_SAVE, x.s); } catch (e) { } }
       else if ((S.ts || 0) > (x.ts || 0)) await cloudSave();
       RT.cloudAt = x.ts || Date.now();
-    } else if (S.ts) await cloudSave();
+    } else { S.ts = Date.now(); await cloudSave(); try { localStorage.setItem(LS_SAVE, JSON.stringify(S)); } catch (e) { } }
+    S.acct = RT.uid;
   } catch (e) { RT.cloudErr = e.message || e.code || "erro"; }
 }
 function cacheCat() { try { localStorage.setItem(LS_CAT, JSON.stringify(CAT)); } catch (e) { } }
@@ -3997,6 +5377,7 @@ async function initFirebase() {
   RT.auth = firebase.auth(); RT.db = firebase.firestore(); RT.mode = "firebase";
   RT.assets = { upload: async f => ({ id: await toDataUrl(f, UI.atab === "bans" ? 1600 : 1024) }), delete: async () => { } };
   watchCatalog();
+  finishEmailLink();
   RT.auth.onAuthStateChanged(async u => {
     RT.uid = u ? u.uid : null; RT.email = u ? (u.email || "").toLowerCase() : ""; RT.name = u ? u.displayName || "" : ""; RT.avatar = u ? u.photoURL || "" : "";
     RT.admin = !!u && u.emailVerified && RT.email === ADMIN_EMAIL;
@@ -4006,11 +5387,49 @@ async function initFirebase() {
     renderRail(); rerender();
   });
 }
+/* ---------- entrar só com o e-mail (link mágico do Firebase): funciona em qualquer navegador ---------- */
+const LS_MAIL = "astralis_mail";
+const linkUrl = () => location.href.split(/[?#]/)[0];
+const okMail = m => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(m);
+function authMsg(e) {
+  const c = (e && e.code) || "";
+  return { "auth/operation-not-allowed": "o login por link de e-mail não está ativado no Firebase", "auth/invalid-email": "e-mail inválido", "auth/invalid-action-code": "o link já foi usado ou é inválido", "auth/expired-action-code": "o link expirou",
+    "auth/unauthorized-continue-uri": "este domínio não está autorizado no Firebase", "auth/unauthorized-domain": "este domínio não está autorizado no Firebase", "auth/quota-exceeded": "limite diário de e-mails atingido, tente amanhã", "auth/too-many-requests": "muitas tentativas, espere um pouco", "auth/network-request-failed": "sem conexão" }[c] || (e && (e.message || c)) || "erro";
+}
+async function sendLoginLink(raw) {
+  const email = String(raw || "").trim().toLowerCase();
+  if (!okMail(email)) return toast("Digite um e-mail válido.");
+  if (RT.mode !== "firebase") return toast("O login por e-mail funciona no site publicado com Firebase.");
+  UI.mailBusy = true; renderSoc();
+  try {
+    await RT.auth.sendSignInLinkToEmail(email, { url: linkUrl(), handleCodeInApp: true });
+    try { localStorage.setItem(LS_MAIL, email); } catch (e) { }
+    UI.mailSent = email; toast("Link de acesso enviado para " + email + ".");
+  } catch (e) { toast("Não foi possível enviar o link: " + authMsg(e) + "."); }
+  UI.mailBusy = false; renderSoc();
+}
+async function finishEmailLink() {
+  if (!RT.auth || typeof RT.auth.isSignInWithEmailLink !== "function" || !RT.auth.isSignInWithEmailLink(location.href)) return;
+  const href = location.href;
+  history.replaceState(null, "", linkUrl()); /* o link é de uso único: tira o código da barra de endereço */
+  const done = async em => {
+    try { await RT.auth.signInWithEmailLink(em, href); try { localStorage.removeItem(LS_MAIL); } catch (e) { } UI.mailSent = ""; toast("Você entrou como " + em + "."); }
+    catch (e) { toast("Não foi possível entrar: " + authMsg(e) + ". Peça um link novo."); }
+  };
+  let email = ""; try { email = localStorage.getItem(LS_MAIL) || ""; } catch (e) { }
+  if (email) return done(email);
+  /* link aberto em outro navegador/aparelho: o Firebase exige confirmar o e-mail */
+  modal(`<h3>Confirme seu e-mail</h3><p class="note">Você abriu o link de acesso em outro navegador. Digite o mesmo e-mail que recebeu o link.</p>
+    <div class="fld"><input type="text" inputmode="email" autocomplete="email" id="lk-mail" autofocus placeholder="voce@email.com"></div>
+    <div class="macts"><button class="pillb dk" data-a="mclose">Cancelar</button><button class="pillb gold" data-m="yes">Entrar</button></div>`,
+    { on: a => { if (a !== "yes") return; const v = $("#lk-mail").value.trim().toLowerCase(); if (!okMail(v)) return toast("Digite um e-mail válido."); closeModal(); done(v); } });
+}
+document.addEventListener("submit", e => { if (e.target.id === "lg-form") { e.preventDefault(); sendLoginLink($("#lg-mail").value); } });
 async function login() {
   if (RT.mode !== "firebase") return toast("O login pelo Google funciona no site publicado com Firebase.");
   try { await RT.auth.signInWithPopup(new firebase.auth.GoogleAuthProvider()); } catch (e) { toast("Não foi possível entrar: " + (e.message || e.code)); }
 }
-async function logout() { if (RT.auth) { await cloudSave(); await RT.auth.signOut(); toast("Você saiu. O progresso continua salvo neste aparelho."); } }
+async function logout() { if (RT.auth) { await cloudSave(); await RT.auth.signOut(); S = newState(); try { localStorage.setItem(LS_SAVE, JSON.stringify(S)); } catch (e) { } rerender(); toast("Você saiu. Seu progresso está salvo na sua conta."); } }
 /* no Firebase as imagens ficam dentro do documento (limite de 1 MiB): reduz e converte para WebP */
 async function toDataUrl(file, max) {
   const bmp = await createImageBitmap(file), k = Math.min(1, max / Math.max(bmp.width, bmp.height));
@@ -4149,7 +5568,7 @@ const CP = {
       const K = cs.K, lv = cs.lv;
       const enX = (k, d) => { const x = K[k] && K[k][4] && K[k][4].en; return x != null ? x : d; };
       body = [["b", "Ataque básico", "+1 Ponto de Habilidade · +" + enX("b", EN.b) + " de Energia"], ["s", "Perícia", "−1 Ponto de Habilidade · +" + enX("s", EN.s) + " de Energia"], ["u", "Suprema", "Custo: " + K.en + " de Energia · recupera " + enX("u", EN.u) + " depois de usar"], ["t", "Talento", K.t && K.t.passive ? "Passiva · não gasta Ponto de Habilidade" : "Ataque Extra · +" + (K.t && K.t.en != null ? K.t.en : EN.fua) + " de Energia"]].filter(([k]) => lv.eff[k] != null).map(([k, t, cost]) =>
-        `<div class="sk"><small>${t.toUpperCase()} · NV. ${lv.eff[k]}/${lv.max[k]}${lv.bonus[k] ? " (+" + lv.bonus[k] + " Eidolon)" : ""}</small><h4>${esc(k === "t" ? K.t.nm : K[k][0])}</h4><p>${esc(skillText(K, k, k === "s" ? allyMode({ K, skT: c.skT }) : "", c))}</p><p style="margin-top:4px;color:var(--gold);font-size:12.5px">${cost}${k === "t" ? "" : " · Quebra " + toughTxt(K[k][2], k)}</p></div>`).join("") +
+        `<div class="sk"><small>${t.toUpperCase()} · NV. ${lv.eff[k]}/${lv.max[k]}${lv.bonus[k] ? " (+" + lv.bonus[k] + " Eidolon)" : ""}</small><h4>${esc(k === "t" ? K.t.nm : K[k][0])}</h4>${descBlock(fullOf(c, k), `<p>${esc(skillText(K, k, k === "s" ? allyMode({ K, skT: c.skT }) : "", c))}</p>`, lv.eff[k])}<p style="margin-top:4px;color:var(--gold);font-size:12.5px">${cost}${k === "t" ? "" : " · Quebra " + toughTxt(K[k][2], k)}</p></div>`).join("") +
         `<button class="pillb dk wide" data-a="ctab" data-v="tr">${G("skills")}Evoluir habilidades e Rastros</button><p class="note">Aggro do estilo: ${P.aggro}.</p>`;
     }
     return `<div class="c-name"><h2>${esc(c.nm)}</h2>${elb(c.el)}</div>
@@ -4184,7 +5603,7 @@ const CP = {
   eid(id, c, o) {
     return `<div class="c-name"><h2>Eidolons</h2><span class="tab" style="font-size:20px">${o.ei}/6</span></div>
       <p class="note">Cada cópia repetida do personagem obtida na invocação desbloqueia o próximo Eidolon.</p>
-      ${eidOf(c).map((e, i) => `<div class="eid${i < o.ei ? " on" : ""}"><i><b>${i + 1}</b></i><div><h4>${esc(e.nm)}</h4><p>${esc(e.d)}</p></div></div>`).join("")}`;
+      ${eidOf(c).map((e, i) => `<div class="eid${i < o.ei ? " on" : ""}"><i><b>${i + 1}</b></i><div><h4>${esc(e.nm)}</h4>${descBlock(fullOf(c, "e" + i), `<p>${esc(e.d)}</p>`)}</div></div>`).join("")}`;
   }
 };
 
@@ -4602,7 +6021,8 @@ function renderTower() {
       ${plan ? `<div class="waves">${plan.waves.map((w, i) => `<div class="wave"><small>ONDA ${i + 1}</small>${w.map(foeHtml).join("")}</div>`).join("")}</div>`
       : `<div class="empty">${G("crowned-skull")}<b>Nenhum inimigo cadastrado</b><span>Os andares existem, mas os lacaios, elites e chefes são cadastrados pelo Admin.</span></div>`}
       <div class="ttl" style="margin-top:12px">${done ? "Recompensa já recebida (repetir não dá recompensa)" : "Recompensa da primeira vitória"}</div>
-      <div class="dl"${done ? ' style="opacity:.45"' : ""}>${Object.entries(rew).map(([k, q]) => `<div>${matIco(k, q, true)}<span>${esc((CUR[k] || MATS[k]).n)}</span></div>`).join("")}</div></div>
+      <div class="dl"${done ? ' style="opacity:.45"' : ""}>${Object.entries(rew).map(([k, q]) => `<div>${matIco(k, q, true)}<span>${esc((CUR[k] || MATS[k]).n)}</span></div>`).join("")}</div>
+      <p class="note">${G("ticket")} Elites derrotados: <b>${S.elK || 0}/${ELITE_EVERY}</b> · a cada ${ELITE_EVERY} elites vencidos na 1ª vitória de um andar, +${ELITE_PC} Passes Comuns${!done && elitesIn(plan) ? ` · este andar tem ${elitesIn(plan)} elite(s)` : ""}. Cada chefe dá +10 Passes Comuns.</p></div>
     <div class="card"><div class="ttl">Equipe (${ownT.length}/4)</div>
       <div class="team" style="margin:10px 0">${[0, 1, 2, 3].map(i => { const id = ownT[i], c = id && CAT.chars[id], o = id && S.chars[id]; return `<button class="tslot" ${id ? `data-a="tm" data-v="${id}"` : "disabled"} aria-label="${c ? "Remover " + esc(c.nm) : "Vazio"}">${c ? (c.spr ? img(c.spr, c.nm) : G(charIcon(c))) + `<span class="tn">${esc(c.nm)} ${elb(c.el)}<br>Nv. ${o.lv}</span>` : G("swordwoman")}</button>`; }).join("")}</div>
       ${ownedIds().length ? `<div class="roster">${ownedIds().map(id => { const c = CAT.chars[id]; return `<button class="rp${ownT.includes(id) ? " in" : ""}" data-a="tm" data-v="${id}" aria-label="${esc(c.nm)}">${c.spr ? img(c.spr, c.nm) : G(charIcon(c))}<small>${S.chars[id].lv}</small></button>`; }).join("")}</div>` : `<p class="note">Você ainda não tem personagens.</p>`}
@@ -4898,6 +6318,7 @@ function bFinish() {
   let rew = null, gate = "";
   if (first) {
     S.tower = f; rew = floorReward(f, B.plan);
+    const eb = eliteBonus(S, B.plan); if (eb) rew.pC = (rew.pC || 0) + eb;
     for (const k in rew) give(S, k, rew[k]);
     if (GATES.includes(f)) gate = `<p class="note" style="color:var(--gold)">Estágio ${["I", "II", "III", "IV", "V"][GATES.indexOf(f)]} das masmorras liberado!</p>`;
     save();
@@ -5083,8 +6504,12 @@ function renderSoc() {
   const where = RT.mode === "firebase" ? "na nuvem (Firebase)" : RT.mode === "claude" ? "na nuvem (claude.ai)" : "";
   const saveCard = `<div class="card"><div class="ttl">Save</div>
     ${RT.uid && RT.db ? `<p class="note">Seu progresso é salvo ${where} automaticamente a cada ação e também neste aparelho.${RT.cloudAt ? " Última sincronização: " + new Date(RT.cloudAt).toLocaleString("pt-BR", { dateStyle: "short", timeStyle: "short" }) + "." : ""}${RT.cloudErr ? ` <b style="color:var(--bad)">Erro: ${esc(RT.cloudErr)}</b>` : ""}</p>
-      <div class="macts" style="justify-content:flex-start"><button class="pillb sm" data-a="savenow">${G("cloud-upload")}Salvar agora</button>${RT.mode === "firebase" ? `<button class="pillb dk sm" data-a="logout">${G("exit-door")}Sair</button>` : ""}</div>`
-      : RT.mode === "firebase" ? `<p class="note">Entre com o Google para salvar o progresso na nuvem, jogar em qualquer aparelho e adicionar amigos. Sem login o save fica só neste navegador.</p><div class="macts" style="justify-content:flex-start"><button class="pillb gold" data-a="login">${G("entry-door")}Entrar com Google</button></div>`
+      <div class="macts" style="justify-content:flex-start">${RT.email ? `<span class="note" style="width:100%">Conectado como <b>${esc(RT.email)}</b>. Para jogar em outro navegador, entre com este e-mail.</span>` : ""}<button class="pillb sm" data-a="savenow">${G("cloud-upload")}Salvar agora</button>${RT.mode === "firebase" ? `<button class="pillb dk sm" data-a="logout">${G("exit-door")}Sair</button>` : ""}</div>`
+      : RT.mode === "firebase" ? `<p class="note">Entre com seu e-mail para salvar a conta na nuvem e continuar de onde parou em qualquer navegador ou aparelho. Sem login o save fica só neste navegador.</p>
+      <form id="lg-form" class="lgf" novalidate><div class="fld"><label for="lg-mail">E-mail</label><input type="text" inputmode="email" autocomplete="email" id="lg-mail" placeholder="voce@email.com" value="${esc(UI.mailSent || "")}"></div>
+        <button class="pillb gold" type="submit" ${UI.mailBusy ? "disabled" : ""}>${G("envelope")}${UI.mailBusy ? "Enviando…" : UI.mailSent ? "Reenviar link" : "Enviar link de acesso"}</button></form>
+      ${UI.mailSent ? `<p class="note ok">Enviamos um link para <b>${esc(UI.mailSent)}</b>. Abra o e-mail (veja também o spam) e toque no link: você entra na hora, sem senha. O link vale por pouco tempo e só uma vez.</p>` : `<p class="note">Sem senha: a cada login enviamos um link para o seu e-mail. Use sempre o mesmo e-mail para ver a mesma conta.</p>`}
+      <div class="macts" style="justify-content:flex-start"><button class="pillb dk sm" data-a="login">${G("entry-door")}Entrar com Google</button></div>`
         : `<p class="note">Save local: o progresso fica guardado só neste navegador.${FIREBASE ? "" : " Para save online e amigos no seu site, configure o Firebase (veja o guia de publicação)."}${RT.mode === "claude" ? " No claude.ai é preciso estar conectado." : ""}</p>`}</div>`;
   if (!SOC.on) {
     el.innerHTML = `<header class="sh"><h1 class="h1">Social</h1></header><div class="soc">${saveCard}
@@ -5372,7 +6797,7 @@ function trInfo(c, o, cs) {
     const bonus = lv.bonus[k] ? ` <small class="eb">+${lv.bonus[k]} Eidolon</small>` : "";
     const ex0 = k !== "t" && K0[k][4] && K0[k][4].heal, ex1 = K1 && k !== "t" && K1[k][4] && K1[k][4].heal;
     return `<span class="trtag">${SK_NM[k]}</span>${k === "t" ? ` <span class="trtag psv">PASSIVA · automática</span>` : ""}<h3>${esc(nm)}</h3><div class="trkind">[${k === "t" && K0.t && K0.t.txt ? "Passiva" : KIND_TAG[kind] || kind}]<b>Nv. ${lv.eff[k]}/${lv.max[k]}${bonus}</b></div>${k === "u" ? `<p class="note">Custo: <b>${K0.en}</b> de Energia · recupera ${EN.u} depois de usar</p>` : k === "b" || k === "s" ? `<p class="note">Recupera ${EN[k]} de Energia</p>` : ""}
-      <p class="trd">${can ? diffText(txt0, txt1) : esc(txt0)}</p>
+      ${descBlock(fullOf(c, k), `<p class="trd">${can ? diffText(txt0, txt1) : esc(txt0)}</p>`, lv.eff[k])}
       ${m0 > 0 ? `<div class="trprev"><div><span>Multiplicador</span><b>${pc(m0)}</b>${m1 ? `<em>→ ${pc(m1)} (+${pc(m1 - m0)})</em>` : ""}</div>
         <div><span>Dano-base com ${sc === "def" ? "DEF" : "ATQ"} ${fmtN(scv)}</span><b>${fmtN(m0 * scv)}</b>${m1 ? `<em>→ ${fmtN(m1 * scv)} (+${fmtN((m1 - m0) * scv)})</em>` : ""}</div>
         <small class="note">Dano-base = multiplicador × ${sc === "def" ? "DEF" : "ATQ"}. O dano final ainda depende de crítico, bônus de dano, DEF e RES do alvo.</small></div>` : ""}
@@ -5385,7 +6810,7 @@ function trInfo(c, o, cs) {
   if (!on) TRCOST = q.cost;
   const reqHtml = q.why.length ? `<p class="trlock">${G("padlock")}Requer: ${esc(q.why.join(" · "))}</p>` : "";
   const pay = on ? `<p class="ok">${G("check")} DESBLOQUEADO · efeito ativo</p>` : `${reqHtml}<div class="ttl">Materiais necessários ${hlpBtn}</div>${costHtml(q.cost)}<button class="pillb wide gold" data-a="trup" data-v="${k}" ${q.why.length || !canPay(q.cost) ? "disabled" : ""}>Desbloquear</button>`;
-  if (MAJ_REQ[k]) { const T = c.traces[k], R = MAJ_REQ[k]; return `<span class="trtag">Rastro maior · ${k.toUpperCase()}</span><h3>${esc(T.nm)}</h3><p class="trd">${esc(T.d)}</p><p class="note">Requisitos: ascensão ${R.asc} · nível ${R.lv}${R.pre ? " · " + R.pre.toUpperCase() : ""}. Desbloqueio único, sem níveis.</p>${pay}`; }
+  if (MAJ_REQ[k]) { const T = c.traces[k], R = MAJ_REQ[k]; return `<span class="trtag">Rastro maior · ${k.toUpperCase()}</span><h3>${esc(T.nm)}</h3>${descBlock(fullOf(c, k), `<p class="trd">${esc(T.d)}</p>`)}<p class="note">Requisitos: ascensão ${R.asc} · nível ${R.lv}${R.pre ? " · " + R.pre.toUpperCase() : ""}. Desbloqueio único, sem níveis.</p>${pay}`; }
   const n = q.n;
   return `<span class="trtag">Rastro menor · grupo ${n.g}</span><h3>${esc(trLabel(n.k, c))} +${fmtS(n.k === "spd" ? "spd" : "x", n.v)}</h3><p class="trd">Aumento permanente de ${esc(trLabel(n.k, c))}.</p>${pay}`;
 }
@@ -5564,7 +6989,7 @@ function renderEidolons() {
     <main class="eidm" style="--ec:${col}"><div class="eidf"><div class="eidglow"></div>${E.map((x, i) => `<button class="eshard${i < (o.ei || 0) ? " on" : ""}${i === EIDV.sel ? " sel" : ""}" style="left:${EID_POS[i][0]}%;top:${EID_POS[i][1]}%" data-a="eidsel" data-v="${i}" aria-label="Eidolon ${i + 1}: ${esc(x.nm)}">
         <span class="glass" style="clip-path:${EID_CLIP[i]}">${im[i] ? img(im[i], x.nm) : ""}</span>
         <span class="lab">${i < (o.ei || 0) ? "" : G("padlock")}<b>${i + 1}</b><small>${esc(x.nm)}</small></span></button>`).join("")}</div>
-      <aside class="trinfo"><span class="trtag">Eidolon ${EIDV.sel + 1}</span><h3>${esc(e.nm)}</h3><p class="${on ? "ok" : "trlock"}">${on ? G("check") + " Desbloqueado" : G("padlock") + " Bloqueado · obtenha mais " + (EIDV.sel + 1 - (o.ei || 0)) + " cópia(s)"}</p><p class="trd">${esc(e.d)}</p>
+      <aside class="trinfo"><span class="trtag">Eidolon ${EIDV.sel + 1}</span><h3>${esc(e.nm)}</h3><p class="${on ? "ok" : "trlock"}">${on ? G("check") + " Desbloqueado" : G("padlock") + " Bloqueado · obtenha mais " + (EIDV.sel + 1 - (o.ei || 0)) + " cópia(s)"}</p>${descBlock(fullOf(c, "e" + EIDV.sel), `<p class="trd">${esc(e.d)}</p>`)}
         ${e.lv ? `<p class="note">Níveis de habilidade somados automaticamente: ${Object.entries(e.lv).map(([k, v]) => SK_NM[k] + " +" + v).join(", ")}.</p>` : ""}
         <p class="note">Cada cópia repetida obtida na invocação libera o próximo Eidolon e rende +50 Poeira Estelar e +2 Brilho Estelar (com E6 completo: +75 Poeira e +5 Brilho).</p></aside></main>`;
 }
@@ -5843,6 +7268,12 @@ async function playXtra(ev) {
   void lab;
   await bs(RM() ? 150 : 380);
 }
+
+/* descrições: Resumo × Detalhado (as duas versões ficam no HTML; a classe do body escolhe qual aparece) */
+const descBlock = (full, short, cur) => full ? `<div class="dmode" role="group" aria-label="Tipo de descrição"><button type="button" data-dm="s">Resumo</button><button type="button" data-dm="d">Detalhado</button></div><div class="ds">${short}</div>${mdLite(full, cur)}` : short;
+function setDescMode(m) { document.body.classList.toggle("det", m === "d"); try { localStorage.setItem("astr_desc", m); } catch (e) { } }
+(() => { let m = "s"; try { m = localStorage.getItem("astr_desc") || "s"; } catch (e) { } const go0 = () => setDescMode(m); document.body ? go0() : document.addEventListener("DOMContentLoaded", go0); })();
+document.addEventListener("click", ev => { const b = ev.target.closest && ev.target.closest("[data-dm]"); if (b) { ev.stopPropagation(); setDescMode(b.dataset.dm); } }, true);
 
 /* =====================================================================
    ASTRALIS · INTERFACE (parte 5: admin, eventos, partículas, início)
