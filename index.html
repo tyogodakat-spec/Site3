@@ -170,6 +170,22 @@ button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid 
   radial-gradient(26% 11% at 78% 86%,#fff,transparent 70%),radial-gradient(16% 7% at 92% 70%,rgba(255,255,255,.9),transparent 70%),
   radial-gradient(20% 8% at 55% 95%,#fff,transparent 70%),radial-gradient(14% 6% at 64% 18%,rgba(255,255,255,.6),transparent 70%),
   radial-gradient(12% 5% at 20% 22%,rgba(255,255,255,.55),transparent 70%)}
+/* tema escuro da invocação */
+#s-wish.dk{background:radial-gradient(60% 50% at 70% 40%,rgba(140,120,255,.2),transparent 70%),radial-gradient(40% 30% at 15% 85%,rgba(80,140,255,.12),transparent 70%),linear-gradient(170deg,#0A0F22 0%,#131A38 45%,#1B1640 80%,#090C1C 100%)}
+#s-wish.dk .clouds{opacity:.09}
+#s-wish.dk .w-x,#s-wish.dk .wc button{background:rgba(233,238,248,.12);color:#E9EEF8;box-shadow:none;border:1px solid rgba(233,238,248,.18)}
+#s-wish.dk .wc{background:rgba(233,238,248,.08)}
+#s-wish.dk .wb{border-color:rgba(233,238,248,.22);box-shadow:0 3px 10px rgba(0,0,0,.5)}
+#s-wish.dk .wb.on{border-color:#E3C78A;box-shadow:0 0 0 2px rgba(227,199,138,.45),0 5px 14px rgba(0,0,0,.6)}
+#s-wish.dk .bn{border-color:rgba(233,238,248,.22);box-shadow:0 14px 40px rgba(0,0,0,.6);background:linear-gradient(120deg,#1B2550,#3A3474)}
+#s-wish.dk .bn-box{background:rgba(10,15,34,.85);color:#DCE3F5}
+#s-wish.dk .bn-box b{color:#F0B36A}
+#s-wish.dk .bn-empty{background:linear-gradient(135deg,rgba(233,238,248,.08),rgba(233,238,248,.03))}
+#s-wish.dk .bn-in,#s-wish.dk .bn-in b{color:#DCE3F5}
+#s-wish.dk .pity{background:rgba(233,238,248,.08);color:#DCE3F5}
+#s-wish.dk .wish-b,#s-wish.dk .w-foot .pillb{background:#242C4A;color:#F2F4FA;border:1px solid rgba(227,199,138,.35);box-shadow:0 3px 0 rgba(0,0,0,.45),0 6px 16px rgba(0,0,0,.4)}
+#s-wish.dk .wish-b small{color:#B9C2DA}
+.w-th .g{width:18px;height:18px}
 .clouds::after{content:"";position:absolute;inset:0;background:radial-gradient(1px 1px at 20% 30%,#fff,transparent),radial-gradient(1px 1px at 70% 20%,#fff,transparent),radial-gradient(1.5px 1.5px at 40% 60%,#fff,transparent),radial-gradient(1px 1px at 85% 45%,#fff,transparent);opacity:.7}
 .w-top{grid-area:top;position:relative;display:flex;align-items:center;gap:14px;padding:14px 20px 6px 22px}
 .w-title{display:flex;align-items:center;gap:10px;font-size:20px;font-weight:600;text-shadow:0 1px 3px rgba(40,60,100,.4);flex:1}
@@ -591,6 +607,9 @@ button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid 
 .lcc .lce{position:absolute;left:4px;top:4px;z-index:2;width:20px;height:20px;border-radius:50%;background:rgba(8,12,28,.7);display:grid;place-items:center}.lcc .lce .g{width:14px;height:14px}
 .lcc .lcr{position:absolute;left:5px;top:28px;z-index:2;min-width:18px;height:18px;padding:0 3px;border-radius:9px;background:rgba(8,12,28,.75);border:1px solid var(--gold);color:var(--gold);font:700 10px/16px var(--ft)}
 .lcc .lk{position:absolute;right:5px;bottom:26px;z-index:2;width:16px;height:16px;color:#fff;filter:drop-shadow(0 0 2px #000)}
+.lcc .lctag{position:absolute;left:50%;top:26px;translate:-50% 0;z-index:2;white-space:nowrap;padding:1px 6px;border-radius:7px;background:rgba(8,12,28,.82);color:#FFD86E;font-size:10px;font-weight:700;border:1px solid rgba(255,216,110,.5)}
+.lcc.fit{box-shadow:0 0 0 2px rgba(255,216,110,.55),0 3px 8px rgba(0,0,0,.35)}
+.lcsec{display:flex;align-items:center;gap:6px;margin:10px 0 6px;font-weight:600}.lcsec .g{width:16px;height:16px;color:#FFD86E}
 .lcc .lcf{position:absolute;left:6px;bottom:44px;z-index:2;color:#FFD86E;font-size:14px;text-shadow:0 0 3px #000}
 .lcc .eqd{position:absolute;right:3px;top:3px;z-index:2;width:24px;height:24px;border-radius:50%;overflow:hidden;border:1.5px solid #fff;background:var(--bg3);display:grid;place-items:center;font-size:11px;font-weight:700}
 .lcc .eqd img{width:100%;height:100%;object-fit:cover;object-position:50% 12%}
@@ -1292,6 +1311,7 @@ html.lite .ult.rdy::before{display:none}
 <symbol id="g-metal-boot" viewBox="0 0 512 512"><path fill="currentColor" d="m269 23.95l-87.7.1c1.1 61.4-2.4 116.05-14 159.45c-9 34-23.6 61.6-45.2 79c-.1 9.5-.8 19-2.1 28.6c-3.1 22.9-13.5 43.2-22.75 65c23.55-1.3 43.55-11.6 65.35-24.8c20.6-12.5 42.4-27.5 68.9-37.8c-.2-1.4-.4-2.9-.4-4.2c-1.9-23.7.1-52.2 4.1-83.2C243 147.6 257.9 81.05 269 23.95m-105.7.1H80.65c-1.6 36.5 10.1 76.15 21.65 119.15c8.3 30.4 16.5 62.3 19 95.7c12.6-14.3 21.8-34.4 28.6-60c10.8-40.6 14.4-94.15 13.4-154.85m41.8 14.9h.1a9 9 0 0 1 9 9a9 9 0 0 1-9 9a9 9 0 0 1-9-9a9 9 0 0 1 8.9-9m-2.4 52.5h.1a9 9 0 0 1 9 8.95a9 9 0 0 1-9 9a9 9 0 0 1-9-9a9 9 0 0 1 8.9-8.95m-5.9 56.25h.1a9 9 0 0 1 9 9a9 9 0 0 1-9 9a9 9 0 0 1-9-9a9 9 0 0 1 8.9-9m-16 60.6h.1a9 9 0 0 1 9 9a9 9 0 0 1-9 9a9 9 0 0 1-9-9a9 9 0 0 1 8.9-9m-32 48.1h.1a9 9 0 0 1 9 9a9 9 0 0 1-9 9a9 9 0 0 1-9-9a9 9 0 0 1 8.9-9m85.7 55.3c-22.6 9.6-42.3 22.9-62.6 35c-24.6 14.9-50.5 27.9-81.85 27.5c-8.2 22.7-13.8 48-10 79.9h82.35c13.2-41.4 42.9-78 95.1-106.8c-1.4-1-2.9-2.1-4.3-3.2c-9.6-7.6-15.3-18.8-18.7-32.4m40.2 46.7c-52.1 26.2-80.4 58.5-93.6 95.7h127.4c0-14.3.6-29 3.9-43.6c2.6-11.5 7-22.9 14-33.9c-16.1-3.3-33.5-8.1-51.7-18.2m70.8 21.8c-8.2 10.9-12.8 22.3-15.5 34.3c-2.8 12.5-3.5 25.8-3.5 39.6h104c-2-17.8-12.5-39.8-28.1-52.1c-17.8-13.9-36-17.9-56.9-21.8m8.3 10.5a9 9 0 0 1 9 9a9 9 0 0 1-9 9a9 9 0 0 1-9-9a9 9 0 0 1 9-9m-254.05 35h.1a9 9 0 0 1 8.95 9a9 9 0 0 1-8.95 9a9 9 0 0 1-9-9a9 9 0 0 1 8.9-9m44.85.6h.1a9 9 0 0 1 9 9a9 9 0 0 1-9 9a9 9 0 0 1-9-9a9 9 0 0 1 8.9-9m201.5.1a9 9 0 0 1 9 9a9 9 0 0 1-9 9a9 9 0 0 1-9-9a9 9 0 0 1 9-9M72.05 470v18.1H440V470z"/></symbol>
 <symbol id="g-mighty-force" viewBox="0 0 512 512"><path fill="currentColor" d="m256 28l-32 128q-48-24-96-96c0 48 0 96 32 128c-32 17-64 0-96-32c0 32 0 80 48 112c-32 16-64 0-80-32c0 48 16 96 48 128c-16 16-48 0-64-16c0 64 48 112 112 144h76.8l16.7-68.6l-17.2-86.1l-97.9 5s20.3-75.2 34.9-103.7c5-9.6 7.2-18 20-18.3c11.3 0 20.4 9.8 20.4 21.9c0 12-9.1 21.8-20.4 21.8c-2.3 0-4.6-.5-6.6-1.3l-5.1 46.8c29.6-8.9 56.9-18.8 84-30.9c0-.1-.1-.2-.1-.3c-6.2-8.8-10.4-21.5-10.4-35.7c0-14.1 4.1-26.8 10.4-35.7c6.1-8.9 14.1-13.7 22.5-13.7c8.5 0 16.5 4.8 22.6 13.7c6.2 8.9 10.2 21.6 10.2 35.7c0 14.2-4 26.9-10.2 35.7c-.1.3-.5.7-.6.9c27.3 12.1 56.1 20.6 84.3 30.3l-5-46.8c-2.2.8-4.3 1.3-6.7 1.3c-11.2 0-20.3-9.8-20.3-21.8c0-12.1 9.1-21.9 20.3-21.9c12.8.3 15.2 8.7 20 18.3c14.8 28.5 35 103.7 35 103.7l-97.9-5l-17.2 86.1l16.7 68.6H384c64-32 112-80 112-144c-16 16-48 32-64 16c32-32 48-80 48-128c-16 32-48 48-80 32c48-32 48-80 48-112c-32 32-64 48-96 32c32-32 32-80 32-128q-48 72-96 96z"/></symbol>
 <symbol id="g-money-stack" viewBox="0 0 512 512"><path fill="currentColor" d="M327.027 65.816L229.79 128.23l9.856 5.397l86.51-55.53l146.735 83.116l-84.165 54.023l4.1 2.244v6.848l65.923-42.316l13.836 7.838l-79.76 51.195v11.723l64.633-41.487l15.127 8.57l-79.76 51.195v11.723l64.633-41.487l15.127 8.57l-79.76 51.195v11.723l100.033-64.21l-24.828-14.062l24.827-15.937l-24.828-14.064l24.827-15.937l-23.537-13.333l23.842-15.305zm31.067 44.74c-21.038 10.556-49.06 12.342-68.79 4.383l-38.57 24.757l126.903 69.47l36.582-23.48c-14.41-11.376-13.21-28.35 2.942-41.67zM227.504 147.5l-70.688 46.094l135.61 78.066l1.33-.85c2.5-1.61 6.03-3.89 10.242-6.613c8.42-5.443 19.563-12.66 30.674-19.86c16.002-10.37 24.248-15.72 31.916-20.694zm115.467 1.17a8.583 14.437 82.068 0 1 .003 0a8.583 14.437 82.068 0 1 8.32 1.945a8.583 14.437 82.068 0 1-.87 12.282a8.583 14.437 82.068 0 1-20.273 1.29a8.583 14.437 82.068 0 1 .87-12.28a8.583 14.437 82.068 0 1 11.95-3.237m-218.423 47.115L19.143 263.44l23.537 13.333l-23.842 15.305l24.828 14.063l-24.828 15.938l24.828 14.063l-24.828 15.938l166.135 94.106L285.277 381.8v-11.72l-99.433 63.824L39.11 350.787l14.255-9.15l131.608 74.547L285.277 351.8v-11.72l-99.433 63.824L39.11 320.787l14.255-9.15l131.608 74.547L285.277 321.8v-11.72l-99.433 63.824L39.11 290.787l13.27-8.52l132.9 75.28l99.997-64.188v-5.05l-5.48-3.154l-93.65 60.11l-146.73-83.116l94.76-60.824l-9.63-5.543zm20.46 11.78l-46.92 30.115c14.41 11.374 13.21 28.348-2.942 41.67l59.068 33.46c21.037-10.557 49.057-12.342 68.787-4.384l45.965-29.504l-123.96-71.358zm229.817 32.19c-8.044 5.217-15.138 9.822-30.363 19.688a36222 36222 0 0 1-30.69 19.873c-4.217 2.725-7.755 5.01-10.278 6.632c-.09.06-.127.08-.215.137v85.924l71.547-48.088zm-200.99 17.48a8.583 14.437 82.068 0 1 8.32 1.947a8.583 14.437 82.068 0 1-.87 12.28a8.583 14.437 82.068 0 1-20.27 1.29a8.583 14.437 82.068 0 1 .87-12.28a8.583 14.437 82.068 0 1 11.95-3.236z"/></symbol>
+<symbol id="g-moon" viewBox="0 0 512 512"><path fill="currentColor" d="M253.125 18.563c-131.53 0-238.375 106.813-238.375 238.343S121.596 495.25 253.125 495.25c131.53 0 238.344-106.815 238.344-238.344c0-131.528-106.816-238.344-238.345-238.344zm-23.938 52.093c40.517 0 77.988 12.904 108.532 34.813a154 154 0 0 0-17.064-.97c-84.157 0-152.375 68.25-152.375 152.406S236.5 409.28 320.656 409.28c5.762 0 11.467-.313 17.063-.936c-30.545 21.91-68.016 34.812-108.533 34.812c-102.98 0-186.28-83.272-186.28-186.25s83.3-186.25 186.28-186.25z"/></symbol>
 <symbol id="g-muscle-up" viewBox="0 0 512 512"><path fill="currentColor" d="M165.906 18.688C15.593 59.28-42.187 198.55 92.72 245.375h-1.095c.635.086 1.274.186 1.906.28c8.985 3.077 18.83 5.733 29.532 7.94C173.36 273.35 209.74 321.22 212.69 368c-33.514 23.096-59.47 62.844-59.47 62.844l26.28 38.686L138.28 493h81.97c-40.425-40.435-11.76-85.906 36.125-85.906c48.54 0 73.945 48.112 36.156 85.906h81.126l-40.375-23.47l26.283-38.686s-26.376-40.4-60.282-63.406c3.204-46.602 39.5-94.167 89.595-113.844c10.706-2.207 20.546-4.86 29.53-7.938c.633-.095 1.273-.195 1.908-.28h-1.125c134.927-46.82 77.163-186.094-73.157-226.69c-40.722 39.37 6.54 101.683 43.626 56.877c36.9 69.08 8.603 127.587-72.28 83.406c-11.88 24.492-34.213 41.374-60.688 41.374c-26.703 0-49.168-17.167-60.97-42c-81.774 45.38-110.512-13.372-73.437-82.78c37.09 44.805 84.35-17.508 43.626-56.876zm90.79 35.92c-27.388 0-51.33 27.556-51.33 63.61c0 36.056 23.942 62.995 51.33 62.995s51.327-26.94 51.327-62.994c0-36.058-23.94-63.61-51.328-63.61z"/></symbol>
 <symbol id="g-nailed-head" viewBox="0 0 512 512"><path fill="currentColor" d="m206.28 20.75l40.75 18.406v95.625l11 17.907l12.75-17.906V39.157l40.75-18.406zm-81.874 32.28L49.97 127.438l41.843-15.78l67.624 67.624l21.657 3.657l-4.875-20.468l-67.626-67.595l15.812-41.844zm264.281 0l15.782 41.845l-67.626 67.594l-4.875 20.468l21.686-3.657l67.594-67.624l41.844 15.78l-74.406-74.405zM258.281 167.47c-18.774 0-35.987 9.647-49 26.28c-13.01 16.633-21.374 40.158-21.374 66.313c0 27.096 9.278 51.387 23.188 68.156l10.125 12.217l-15.595 2.938c-39.857 7.504-58.408 22.664-69.28 48.25c-10.143 23.866-12.33 58.635-12.595 103.094h270.406c-.04-44.852-.605-80.457-9.812-104.626c-9.865-25.894-27.82-41.064-71.28-47.906l-15.845-2.5l10-12.563c13.226-16.583 21.436-40.478 21.436-67.063c0-26.153-8.363-49.68-21.375-66.312c-13.01-16.633-30.224-26.28-49-26.28zM35.407 206.78V312l18.438-40.75h95.594l17.906-12.72l-17.906-11H53.844l-18.438-40.75zm446.97 0l-18.407 40.75h-95.626l-17.906 11l17.906 12.72h95.625L482.374 312V206.78z"/></symbol>
 <symbol id="g-ninja-heroic-stance" viewBox="0 0 512 512"><path fill="currentColor" d="M458.949 16.902c-21.23 45.511-62.196 13.713-94.89 12.604c-92.464-.8-95.254 47.352-141.296 77.017c-9.189-10.02-23.774-16.38-46.738-15.117c-15.928.876-30.343 6.34-40.974 15.895c-12.34 10.738-21.335 25.549-21.942 39.84c21.03-5.316 41.304-4.385 45.871 5.46c11.508 24.813-21.37 15.961-44.745 23.397c-1.248.396-2.472.81-3.684 1.225c-2.757 7.733-6.024 15.131-6.024 20.482c0 16.945 13.686 6.16 19.648 20.88c.85 2.099 3.778 8.625 12.238 16.833c1.367 1.328 46-35.114 47.487-33.9c-14.835 31.6-38.787 42.74-41.127 43.975c-21.237 11.202-46.726 20.42-55.691 38.13l-.522-.168s-27.58 65.425-33.509 97.908c.575 16.747 25.672 12.545 25.672 12.545l39.527-11.785l4.686 16.94l119.482-150.627c-26.122-15.67-18.045-38.588-21.927-58.778c13.787-22.475 21.9-34.062 14.597-56.68c7.122-7.318 16.216-14.785 26.61-16.779c21.267-4.08 60.016 16.198 80.997 16.47c27.78.362 42.716-14.296 54.352-31.905c-10.666 3.502-14.712 3.5-8.703-15.065c-14.177 5.175-23.315 22.6-48.998 18.526c-23.87-3.787-60.077-11.021-80.065-4.354c33.926-17.423 60.548-35.253 96.777-39.463c42.453 3.026 80.56 32.916 102.89-17.031zM340.169 153.78l-39.003 49.065l16.54 11.713l39.008-49.067zm-205.509 1.657c-5.303 0-10.607 1.195-10.607 3.584c2.163 2.943 9.788 5.337 13.459 5.42c5.858 0 7.755-.644 7.755-5.42c0-2.389-5.304-3.584-10.607-3.584m140.864 47.156l-11.702 14.172L312.9 250.85l11.701-14.172zm-4.423 35.984L100.574 453.551s-10.247 8.425-.05 16.773c10.47 8.57 18.622-3.654 18.622-3.654L289.67 251.695zm18.932 41.914s-20.687 26.845-31.22 40.12c-42.147 53.119-125.718 156.698-127.942 158.156l.068 16.332H240.24l15.365-115.264l44.661 9.677s17.915 1.914 17.186-13.823c-4.626-21.768-19.228-74.864-27.42-95.198zm-22.714 48.874l8.746 21.61l-14.493-3.73z"/></symbol>
@@ -6664,10 +6684,15 @@ const CP = {
   },
   wpn(id, c, o) {
     const w = o.w && S.wpns.find(x => x.u === o.w);
-    const list = S.wpns.filter(x => x.u !== o.w).sort((a, b) => b.r - a.r || b.lv - a.lv).slice(0, 120);
+    /* ideais primeiro: exclusivo → passiva ativa → mesmo elemento → universal → resto; livres antes dos equipados em outro personagem */
+    const list = S.wpns.filter(x => x.u !== o.w).map(x => [x, lcFit(x, c)]).sort(([a, fa], [b, fb]) => fa - fb || (!!a.eq - !!b.eq) || b.r - a.r || b.lv - a.lv || (b.ref || 1) - (a.ref || 1)).slice(0, 120);
+    const best = list.filter(([, f]) => f <= 1), rest = list.filter(([, f]) => f > 1);
+    const grid = L => `<div class="grid lcgrid" style="max-height:none;overflow:visible;flex:none">${L.map(([x, f]) => wpnCard(x, f <= 1 ? " fit" : "", "wequip", LC_TAG[f])).join("")}</div>`;
     return `<div class="ttl">Cone de Luz equipado</div>${w ? wDetail(w, true) : `<div class="empty">${G("spell-book")}<span>Nenhum Cone de Luz equipado.</span></div>`}
       <div class="ttl">Trocar Cone · ${S.wpns.length}/${WCAP}</div>
-      ${list.length ? `<div class="grid lcgrid" style="max-height:none;overflow:visible">${list.map(x => wpnCard(x, "", "wequip")).join("")}</div>` : `<p class="note">Nenhum outro Cone no inventário. Invoque no banner de Cones de Luz.</p>`}`;
+      ${!list.length ? `<p class="note">Nenhum outro Cone no inventário. Invoque no banner de Cones de Luz.</p>` : `
+      ${best.length ? `<p class="note lcsec">${G("star-formation")}Ideais para ${esc(c.nm)}: a passiva funciona nele</p>${grid(best)}` : `<p class="note">Nenhum Cone com passiva ativa para ${esc(c.nm)} (precisa ser do elemento dele, ${EL[c.el].n}).</p>`}
+      ${rest.length ? `<p class="note lcsec">Outros Cones${best.length ? "" : " (só os atributos base contam)"}</p>${grid(rest)}` : ""}`}`;
   },
   rel(id, c, o) {
     const sel = UI.rslot, R = o.rel[sel] && S.rels.find(x => x.u === o.rel[sel]);
@@ -6810,8 +6835,13 @@ function bannerFeat(ban) {
   return ban.type === "evtC" ? { f: P.c5f[0], side: P.c4f } : ban.type === "evtW" ? { f: P.w5f[0], f2: P.w5f[1], side: P.w4f } : { f: null, side: [] };
 }
 const wishCur = (cur, extra) => `<span class="wc" title="${cur.n}"><svg class="g" style="color:${cur.c}"><use href="#g-${cur.ic}"/></svg><span class="tab">${extra}</span></span>`;
+/* tema da tela de invocação: claro (céu) ou escuro (noite); fica lembrado no aparelho */
+let WTH_DARK = false;
+try { WTH_DARK = localStorage.getItem("astr_wth") === "dk"; } catch (e) { }
+function toggleWth() { WTH_DARK = !WTH_DARK; try { localStorage.setItem("astr_wth", WTH_DARK ? "dk" : "lt"); } catch (e) { } renderWish(); }
 function renderWish() {
   const ban = curBanner(), list = bannerList();
+  $("#s-wish").classList.toggle("dk", WTH_DARK);
   const b = ban ? BANNERS[ban.type] : BANNERS.evtC, pass = CUR[b.pass];
   $("#s-wish").style.setProperty("--pc", pass.c);
   const top = `<div class="clouds" aria-hidden="true"></div>
@@ -6819,6 +6849,7 @@ function renderWish() {
     <div class="w-cur">${wishCur(CUR.dust, fmtN(S.dust))}${wishCur(CUR.glit, fmtN(S.glit))}
       <span class="wc" title="${CUR.ast.n}"><svg class="g" style="color:${CUR.ast.c}"><use href="#g-${CUR.ast.ic}"/></svg><span class="tab">${fmtN(S.ast)}</span><button data-a="shop" aria-label="Loja">+</button></span>
       ${wishCur(pass, S[b.pass])}</div>
+    <button class="w-x w-th" data-a="wth" aria-label="${WTH_DARK ? "Tema claro" : "Tema escuro"}" title="${WTH_DARK ? "Tema claro" : "Tema escuro"}">${G(WTH_DARK ? "sun" : "moon")}</button>
     <button class="w-x" data-a="wclose" aria-label="Fechar">${G("x")}</button></header>`;
   if (!ban) {
     $("#s-wish").innerHTML = top + `<nav class="w-bns" aria-label="Banners"></nav>
@@ -7457,7 +7488,7 @@ $("#s-battle").addEventListener("click", e => {
   }
   if (a === "ult") return bUlt(+v);
   if (a === "auto") { BUI.auto = !BUI.auto; bRender(); if (BUI.auto && BUI.wait) BUI.wait.res({ auto: true }); return; }
-  if (a === "spd") { BUI.spd = BUI.spd === 1 ? 2 : BUI.spd === 2 ? 3 : 1; bRender(); return; }
+  if (a === "spd") { BUI.spd = BUI.spd === 1 ? 3 : 1; bRender(); return; } /* ×1 ou ×3 */
   if (a === "quit") {
     const end = $("#b-end");
     end.className = "bend on lose";
@@ -7689,12 +7720,18 @@ function lcPh(i, r, big) {
 function lcThumb(w, i) { return `<span class="lct r${w.r}">${lcPh(i, w.r)}${safeImg(i.icon, i.nm)}</span>`; }
 function lcArt(w, i) { return `<div class="lca r${w.r}">${lcPh(i, w.r, true)}${safeImg(i.art, i.nm)}</div><div class="lcs">${"★".repeat(w.r)}</div>`; }
 /* card do inventário (estilo HSR): miniatura, moldura de raridade, elemento, S, estrelas, nível, equipado */
-function wpnCard(w, extra = "", act = "wsel") {
+/* quão bom o Cone é para o personagem: 0 = exclusivo dele, 1 = passiva ativa (mesmo elemento), 2 = mesmo elemento, 3 = efeito universal, 4 = resto */
+function lcFit(w, c) {
+  const i = wInfo(w, CAT), has = !!(i.stat || LC_HOOKS[w.c]);
+  return i.own ? (i.own === c.id ? 0 : i.univ ? 3 : 4) : i.el === c.el ? (has ? 1 : 2) : 4;
+}
+const LC_TAG = ["Exclusivo", "Passiva ativa", "Mesmo elemento", "", ""];
+function wpnCard(w, extra = "", act = "wsel", tag = "") {
   const i = wInfo(w, CAT), eqc = w.eq && CAT.chars[w.eq];
   return `<button class="lcc r${w.r}${extra}" data-a="${act}" data-v="${w.u}" aria-label="${esc(i.nm)}, nível ${w.lv}, S${w.ref || 1}">
     ${lcThumb(w, i)}<span class="lce" style="color:${EL[i.el].c}">${G(EL[i.el].ic)}</span>${w.c ? `<span class="lcr">${ROMAN[w.ref || 1]}</span>` : ""}
     ${w.lk ? G("padlock", "g lk") : ""}${w.fav ? `<span class="lcf" title="Favorito">★</span>` : ""}${eqc ? `<i class="eqd">${eqc.spr ? img(eqc.spr) : esc(eqc.nm[0])}</i>` : ""}
-    <span class="lcst">${"★".repeat(w.r)}</span><span class="lclv">Nv. ${w.lv}</span><span class="lcn">${esc(i.nm)}</span></button>`;
+    ${tag ? `<span class="lctag">${tag}</span>` : ""}<span class="lcst">${"★".repeat(w.r)}</span><span class="lclv">Nv. ${w.lv}</span><span class="lcn">${esc(i.nm)}</span></button>`;
 }
 /* painel lateral do inventário / aba do personagem */
 function wDetail(w, inChar) {
@@ -8905,6 +8942,7 @@ document.addEventListener("click", e => {
     }
     case "tstart": { const f = UI.tfl || Math.min(FLOORS, S.tower + 1), gate = towerGate(S, S.team.filter(id => S.chars[id]), f); if (gate) { toast(gate); break; } startBattle(f); break; }
     case "wclose": go(UI.scr); break;
+    case "wth": toggleWth(); break;
     case "bn": UI.bn = v; renderWish(); break;
     case "pull": closePull(); doPull(nv); break;
     case "pullx": closePull(); break;
